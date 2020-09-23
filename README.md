@@ -1,1 +1,1 @@
-# Square-Eyes
+# SquareEyes
