@@ -2,3 +2,9 @@ body {
   background-color: #373736;
   font-family: "Helvetica", Arial, sans-serif;
 }
+
+h1 {
+  font-family: "Montserrat Extra Light", "Helvetica", sans-serif;
+  color: #e6b33e;
+  font-size: 69;
+}
