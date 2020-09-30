@@ -22,3 +22,8 @@ nav a {
 nav a:hover {
   text-decoration: double;
 }
+
+.active {
+    text-decoration: underline
+    text-decoration-color: #A27201
+}
