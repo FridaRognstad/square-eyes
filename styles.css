@@ -26,3 +26,26 @@ nav a:hover {
 .active {
   text-decoration: underline;
 }
+
+.indexh1 {
+  color: #a27201;
+  font-size: 107;
+  font-family: Microsoft Sans Serif;
+}
+.indexh2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 69;
+  color: #e6b33e;
+}
+
+.indexh3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 69;
+  color: #a27201;
+}
+
+.index4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 69;
+  color: #a27201;
+}
