@@ -8,3 +8,17 @@ h1 {
   color: #e6b33e;
   font-size: 69;
 }
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: #d6d0c8;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  text-decoration: double;
+}
