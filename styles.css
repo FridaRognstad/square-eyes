@@ -4,20 +4,23 @@ body {
 }
 
 h1 {
-  font-family: "Montserrat Extra Light", "Helvetica", sans-serif;
+  font-family: Montserrat, Helvetica, sans-serif;
   color: #e6b33e;
   font-size: 2em;
 }
 
 h2 {
+  font-family: Montserrat, sans-serif;
   color: #d6d0c8;
 }
 
 h3 {
+  font-family: Montserrat, sans-serif;
   color: #d6d0c8;
 }
 
 p {
+  font-family: Roboto, sans-serif;
   color: #d6d0c8;
 }
 
