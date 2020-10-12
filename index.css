@@ -1,3 +1,10 @@
+header {
+  background-color: #1b1b1b;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 20px;
+}
+
 body {
   background-color: #373736;
   font-family: Montserrat, Helvetica, sans-serif;
