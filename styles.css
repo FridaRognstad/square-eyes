@@ -55,5 +55,8 @@ nav a:hover {
 
 .action {
   display: inline;
+}
+
+.film {
   max-width: 100px;
 }
