@@ -58,5 +58,10 @@ nav a:hover {
 }
 
 .film {
-  max-width: 100px;
+  max-width: 150px;
+  border-width: 50px;
+}
+
+.film-big {
+  max-width: 500px;
 }
