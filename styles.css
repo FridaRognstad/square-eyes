@@ -69,4 +69,5 @@ nav a:hover {
 .producer {
   max-width: 200px;
   margin-right: 200;
+  float: left;
 }
