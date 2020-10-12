@@ -51,5 +51,8 @@ nav a:hover {
 
 .active {
   text-decoration: underline;
-  max-width: 100px;
+}
+
+.action {
+  display: inline;
 }

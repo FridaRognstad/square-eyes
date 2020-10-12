@@ -64,7 +64,3 @@ nav a:hover {
 .active {
   text-decoration: underline;
 }
-
-.action {
-  display: inline;
-}
