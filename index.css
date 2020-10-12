@@ -1,6 +1,9 @@
 body {
   background-color: #373736;
   font-family: Montserrat, Helvetica, sans-serif;
+  background-image: url("images/watchingfilm.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
