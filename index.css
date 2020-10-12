@@ -6,31 +6,31 @@ body {
 h1 {
   font-family: Montserrat, Helvetica, sans-serif;
   color: #a27201;
-  font-size: 2em;
+  font-size: 3em;
 }
 
 h2 {
   font-family: Montserrat, sans-serif;
   color: #e6b33e;
-  font-size: 1em;
+  font-size: 2em;
 }
 
 h3 {
   font-family: Montserrat, sans-serif;
   color: #a27201;
-  font-size: 1em;
+  font-size: 2em;
 }
 
 h4 {
   font-family: Montserrat, sans-serif;
   color: #e6b33e;
-  font-size: 1em;
+  font-size: 2em;
 }
 
 p {
   font-family: Roboto, sans-serif;
   color: #d6d0c8;
-  font-size: ;
+  font-size: 1em;
 }
 
 nav li {
