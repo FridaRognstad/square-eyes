@@ -65,3 +65,9 @@ nav a:hover {
 .film-big {
   max-width: 500px;
 }
+
+img {
+  max-width: 200px;
+  float: left;
+  margin-right: 200;
+}
