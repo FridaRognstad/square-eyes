@@ -5,6 +5,10 @@ header {
   max-height: 200px;
 }
 
+.logo {
+  max-width: 200px;
+}
+
 body {
   background-color: #373736;
   font-family: Montserrat, Helvetica, sans-serif;
