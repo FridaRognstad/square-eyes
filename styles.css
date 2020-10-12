@@ -66,8 +66,7 @@ nav a:hover {
   max-width: 500px;
 }
 
-img {
+.producer {
   max-width: 200px;
-  float: left;
   margin-right: 200;
 }
