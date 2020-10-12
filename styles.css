@@ -1,3 +1,14 @@
+header {
+  background-color: #1b1b1b;
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-height: 270px;
+}
+
+.logo {
+  max-width: 200px;
+}
+
 body {
   background-color: #373736;
   font-family: Montserrat, Helvetica, sans-serif;
