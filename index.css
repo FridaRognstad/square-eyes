@@ -4,6 +4,7 @@ body {
   background-image: url("images/watchingfilm.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  max-width: cover;
 }
 
 h1 {
