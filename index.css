@@ -1,9 +1,8 @@
 header {
   background-color: #1b1b1b;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  max-height: 250px;
-  margin: none;
+  max-height: 270px;
 }
 
 .logo {
