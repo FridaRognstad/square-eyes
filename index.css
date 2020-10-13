@@ -64,3 +64,9 @@ nav a:hover {
 .active {
   text-decoration: underline;
 }
+
+img {
+  max-width: 100px;
+  float: right;
+  border-radius: 50%;
+}

@@ -70,4 +70,10 @@ nav a:hover {
   max-width: 200px;
   margin-right: 200;
   float: left, initial;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.profile-picture {
+  border-radius: 10px 10px 10px 10px;
+  max-width: 200px;
 }
