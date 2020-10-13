@@ -5,6 +5,13 @@ header {
   max-height: 270px;
 }
 
+.right-menu {
+  display: inline-block;
+  color: #d6d0c8;
+  font-size: 1em;
+  float: right;
+}
+
 .logo {
   max-width: 200px;
 }
@@ -47,13 +54,6 @@ nav a {
 
 nav a:hover {
   text-decoration: double;
-}
-
-.right-menu {
-  display: inline-block;
-  color: #d6d0c8;
-  font-size: 1em;
-  float: right;
 }
 
 .active {
