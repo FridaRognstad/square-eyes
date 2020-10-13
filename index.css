@@ -65,7 +65,7 @@ nav a:hover {
   text-decoration: underline;
 }
 
-img {
+.index-picture {
   max-width: 100px;
   float: right;
   border-radius: 50%;
