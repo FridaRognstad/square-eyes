@@ -1,3 +1,12 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 header {
   background-color: #1b1b1b;
   background-size: contain;
@@ -73,17 +82,32 @@ nav a:hover {
 }
 
 .producer {
-  max-width: 200px;
-  margin-right: 200;
-  float: left, initial;
+  width: 30%;
   border-radius: 10px 10px 10px 10px;
+}
+
+.producercol {
+  width: 70%;
+  float: left;
 }
 
 .profile-picture {
   border-radius: 10px 10px 10px 10px;
-  max-width: 200px;
+  max-width: 70%;
+  float: left;
 }
 
 .form__input {
   display: block;
+}
+
+body {
+  font-family: Montserrat, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.content-wrap {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px;
 }
