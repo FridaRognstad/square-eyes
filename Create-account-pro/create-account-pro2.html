@@ -16,25 +16,27 @@
     </header>
 
     <main>
+        <form action="submit.php" method="GET">
         <fieldset>
             <legend>Banking details</legend>
             <p>Everytime someone watches your work, you will get paid</p>
 
-            <p>FULL NAME *</p>
-            <input type="text" name="fullname">
-            <p>ADDRESS *</p>
-            <input type="text" name="address">
-            <p>CITY / ZIP CODE *</p>
-            <input type="text" name="city"><input type="text" name="zipcode">
-            <p>COUNTRY *</p>
-            <input type="text" name="country">
-            <p>IBAN *</p>
-            <input type="text" name="iban">
-            <p>SWIFT / BIC *</p>
-            <input type="text" name="swift-bic">
-            <p>BANK CODE (US)</p>
+            <label for="fullname">FULL NAME</label>
+            <input type="text" name="fullname" required>
+            <label for="adress">ADDRESS</label>
+            <input type="text" name="address" required>
+            <label for="city">CITY</label><label for="zipcode">ZIP CODE</label>
+            <input type="text" name="city" required><input type="text" name="zipcode" required>
+            <label for="country">COUNTRY</label>
+            <input type="text" name="country" required>
+            <label for="iban">IBAN</label>
+            <input type="text" name="iban" required>
+            <label for="swift-bic">SWIFT / BIC</label>
+            <input type="text" name="swift-bic" required>
+            <label for="bankcode">BANKCODE (US)</label>
             <input type="text" name="bankcode">
          </fieldset>
+         <input type="submit" value="next">
          <a href="../create-account-pro/create-account-pro3.html">Next</a>
     </main>
 

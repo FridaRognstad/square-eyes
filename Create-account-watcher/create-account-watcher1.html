@@ -16,20 +16,24 @@
     </header>
 
     <main>
-        <fieldset>
-            <legend>Personal information</legend>
-            <p>FULL NAME *</p>
-            <input type="text" name="fullname">
-            <p>E-MAIL *</p>
-            <input type="text" name="e-mail">
-            <p>BIRTH DATE *</p>
-            <input type="text" name="birthdate">
-            <p>CHOOSE A PASSWORD *</p>
-            <input type="text" name="password">
-         </fieldset>
-             <input type="checkbox" name="newsletter" value="newsletter" id="newsletter"><label for="newsletter">Send newsletters to my e-mail address</label>
-             <i class="fas fa-arrow-circle-right fa-4x" style="color: #E6B33E;"></i>
-             <a href="../create-account-watcher/create-account-watcher2.html">next</a>
+        <form action="submit.php" method="GET">
+            <fieldset>
+                <legend>Personal information</legend>
+                <label for="fullname">FULL NAME</label>
+                <input type="text" name="fullname" required>
+                <label for="e-mail">E-MAIL</label>
+                <input type="text" name="e-mail" required>
+                <label for="birthdate">BIRTH DATE</label>
+                <input type="text" name="birthdate" required>
+                <label for="password">CHOOSE YOUR PASSWORD</label>
+                <input type="text" name="password" required>
+                <input type="checkbox" name="newsletter" value="newsletter" id="newsletter"><label for="newsletter">Send newsletters to my e-mail address</label>
+                <i class="fas fa-arrow-circle-right fa-4x" style="color: #E6B33E;"></i>
+                <a href="../create-account-pro/create-account-pro2.html">next</a>
+            </fieldset>
+            <input type="submit" value="next">
+        </form>
+        </body>
     </main>
 
     <footer>
