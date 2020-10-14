@@ -27,7 +27,7 @@ main {
 }
 
 .index-picture-div {
-  width: 1700px;
+  width: 1700 px;
   margin: 0 auto;
 }
 
@@ -88,4 +88,9 @@ nav a:hover {
   max-width: 100px;
   float: right;
   border-radius: 50%;
+}
+
+.closing-wrap {
+  max-width: 950px;
+  margin: 0 auto;
 }
