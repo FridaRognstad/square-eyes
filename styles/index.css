@@ -6,16 +6,17 @@ header {
   margin-top: -1px;
 }
 
-.right-nav {
+header .right-nav {
   color: #d6d0c8;
   font-size: 1em;
-  text-align: right;
+  float: right;
   margin: 0;
 }
 
 .logo {
   max-height: 100px;
   margin-top: 0;
+  float: left;
 }
 
 body {
