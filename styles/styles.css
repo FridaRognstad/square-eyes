@@ -89,14 +89,19 @@ nav a:hover {
 .producercol {
   width: 70%;
   float: left;
+  background-color: #373736;
+  margin: 20px;
+  border: 1px, solid #e6b33e;
+  border-radius: 10px;
 }
 
 .profile-picture {
   border-radius: 10px 10px 10px 10px;
   max-width: 30%;
   float: left;
-  margin: #373736;
-  border: 1px, #a27201;
+  background-color: #373736;
+  margin: 20px;
+  border: 1px, solid #a27201;
   border-radius: 10px;
 }
 
