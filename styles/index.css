@@ -3,8 +3,6 @@ header {
   background-size: contain;
   background-repeat: no-repeat;
   max-height: 270px;
-  margin: 0px;
-  border: 0px;
 }
 
 .right-menu {
@@ -17,9 +15,13 @@ header {
   max-width: 200px;
 }
 
+body {
+  font-family: Montserrat, Helvetica, sans-serif;
+  margin: 0;
+}
+
 main {
   background-color: #373736;
-  font-family: Montserrat, Helvetica, sans-serif;
 }
 
 .index-picture2 {
@@ -84,4 +86,5 @@ nav a:hover {
 .content-wrap {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 50px;
 }
