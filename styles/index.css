@@ -92,3 +92,10 @@ nav a:hover {
   margin: 0 auto;
   padding: 50px 0 50px 0;
 }
+
+.index-section2 {
+  width: 700px;
+  height: 300px;
+  padding: 40px;
+  background: #282827;
+}
