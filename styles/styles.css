@@ -95,10 +95,14 @@ nav a:hover {
   border-radius: 10px 10px 10px 10px;
   max-width: 30%;
   float: left;
+  border: #a27201;
+  border-radius: 10px;
 }
 
 .form__input {
   display: block;
+  border: #e6b33e;
+  border-radius: 10px;
 }
 
 body {
