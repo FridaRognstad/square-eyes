@@ -22,10 +22,20 @@ main {
   font-family: Montserrat, Helvetica, sans-serif;
 }
 
+.index-picture2 {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.index-section1 {
+  background-color: #373736;
+}
+
 h1 {
   font-family: Montserrat, Helvetica, sans-serif;
   color: #a27201;
   font-size: 3em;
+  margin: -50px 0 0 0;
 }
 
 h2 {
