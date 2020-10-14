@@ -10,6 +10,8 @@ header {
   font-size: 1em;
   text-align: right;
   margin-top: 0;
+  padding: 20px;
+  display: inline-block;
 }
 
 .logo {
