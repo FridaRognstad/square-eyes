@@ -23,7 +23,10 @@ main {
 }
 
 .index-picture2 {
-  max-width: 20%;
+  max-width: 50%;
+}
+
+.index-picture-div {
   margin: 0 auto;
 }
 
@@ -35,7 +38,7 @@ h1 {
   font-family: Montserrat, Helvetica, sans-serif;
   color: #a27201;
   font-size: 3em;
-  margin: -50px 0 0 0;
+  margin: -100px 0 0 0;
 }
 
 h2 {
