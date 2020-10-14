@@ -23,7 +23,7 @@ main {
 }
 
 .index-picture2 {
-  size: contain;
+  max-width: 20%;
   margin: 0 auto;
 }
 
