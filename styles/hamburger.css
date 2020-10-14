@@ -1,11 +1,74 @@
-nav {
-  display: none;
+header {
+  background: #1b1b1b;
+  min-height: 100px;
 }
 
+.logo {
+  max-width: 100px;
+}
+
+nav,
 #hamburger-menu {
   display: none;
 }
 
+nav ul {
+  padding: 0px;
+}
+
+nav li {
+  display: block;
+}
+
+nav a {
+  text-decoration: none;
+  color: #d6d0c8;
+  padding: 10px;
+  display: block;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.current {
+  font-weight: bold;
+}
+
+.hamburger-label {
+  float: right;
+  color: #d6d0c8;
+  padding: 10px;
+  font-size: 1.5em;
+  display: block;
+}
+
 #hamburger-menu:checked ~ nav {
   display: block;
+}
+
+@media (min-width: 600px) {
+  .logo {
+    float: left;
+  }
+
+  nav {
+    display: inline-block;
+  }
+
+  .hamburger-label {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  nav a {
+    padding: 19% 40px;
+  }
 }
