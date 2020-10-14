@@ -3,6 +3,7 @@ header {
   background-size: contain;
   background-repeat: no-repeat;
   max-height: 270px;
+  margin: 0px;
 }
 
 .right-menu {
