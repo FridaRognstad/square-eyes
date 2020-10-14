@@ -83,3 +83,7 @@ nav a:hover {
   border-radius: 10px 10px 10px 10px;
   max-width: 200px;
 }
+
+.form__input {
+  display: block;
+}

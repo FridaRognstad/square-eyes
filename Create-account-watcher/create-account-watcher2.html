@@ -16,29 +16,31 @@
     </header>
 
     <main>
+        <form action="submit.php" method="GET">
         <fieldset>
             <legend>Register your credit card</legend>
             <p>* This step is optional. By adding this information you do not have to type your credit card information everytime you are going to watch a film.</p>
 
             <label for="fullname">FULL NAME</label>
-            <input type="text" name="fullname">
+            <input type="text" name="fullname" class="form__input">
             <label for="adress">ADDRESS</label>
-            <input type="text" name="address">
+            <input type="text" name="address" class="form__input">
             <label for="city">CITY</label><label for="zipcode">ZIP CODE</label>
-            <input type="text" name="city"><input type="text" name="zipcode">
+            <input type="text" name="city"><input type="text" name="zipcode" class="form__input">
             <label for="country">COUNTRY</label>
-            <input type="text" name="country">
+            <input type="text" name="country" class="form__input">
 
             <label for="cardnumber">CARDNUMBER</label>
-            <input type="text" name="cardnumber">
+            <input type="text" name="cardnumber" class="form__input">
             <label for="cardholdername">CARDHOLDER NAME</label>
-            <input type="text" name="cardholdername">
+            <input type="text" name="cardholdername" class="form__input">
             <label for="expiredate">EXPIRE DATE</label>
-            <input type="text" name="expiredate">
+            <input type="text" name="expiredate" class="form__input">
             <label for="cvv">CVV</label>
-            <input type="text" name="cvv">
+            <input type="text" name="cvv" class="form__input">
          </fieldset>
          <input type="submit" value="next">
+        </form>
          <a href="../create-account-watcher/create-account-watcher3.html">Next</a>
     </body>
     </main>
