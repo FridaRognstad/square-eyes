@@ -5,10 +5,10 @@ header {
   max-height: 200px;
 }
 
-.right-menu {
-  display: inline-block;
+.right-nav {
   color: #d6d0c8;
   font-size: 1em;
+  text-align: right;
 }
 
 .logo {
