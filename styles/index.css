@@ -14,7 +14,7 @@ header .right-nav {
 }
 
 header .logo {
-  max-height: 100%;
+  max-height: 100px;
   margin-top: 0;
   float: left;
 }
