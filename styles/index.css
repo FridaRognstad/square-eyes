@@ -16,7 +16,7 @@ header {
   margin-top: -1px;
 }
 
-.sticky-content {
+header .sticky-content {
   position: sticky;
 }
 
