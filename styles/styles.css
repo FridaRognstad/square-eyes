@@ -1,12 +1,3 @@
-/* apply a natural box layout model to all elements, but allowing components to change */
-html {
-  box-sizing: border-box;
-}
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
-}
 header {
   background-color: #1b1b1b;
   background-size: contain;
@@ -88,7 +79,7 @@ nav a:hover {
 
 .producercol {
   width: 70%;
-  float: left;
+  float: right;
   background-color: #373736;
   margin: 20px;
   border: 1px, solid #e6b33e;
