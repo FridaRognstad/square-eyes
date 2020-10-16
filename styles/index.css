@@ -1,6 +1,6 @@
 header {
   background-color: #1b1b1b;
-  padding: 0px;
+  padding: 100px;
 }
 
 header .right-nav {
@@ -12,7 +12,7 @@ header .right-nav {
 
 .logo {
   max-height: 100px;
-  margin-top: -100;
+  margin-top: 0;
   float: left;
 }
 
