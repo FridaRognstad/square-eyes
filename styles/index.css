@@ -14,6 +14,7 @@ header {
   background-repeat: no-repeat;
   border-top: 1px;
   margin-top: -1px;
+  position: sticky;
 }
 
 header .right-nav {
