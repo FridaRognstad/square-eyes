@@ -23,6 +23,30 @@ header .right-nav {
   float: left;
 }
 
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: #d6d0c8;
+  text-decoration: none;
+  padding: 1em;
+  overflow: hidden;
+  background-color: 1b1b1b;
+  display: block;
+  float: left;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: double;
+}
+
+.active {
+  text-decoration: underline;
+}
+
 body {
   font-family: Montserrat, Helvetica, sans-serif;
   margin: 0;
@@ -67,24 +91,6 @@ p {
   font-family: Roboto, sans-serif;
   color: #d6d0c8;
   font-size: 1em;
-}
-
-nav li {
-  display: inline-block;
-}
-
-nav a {
-  color: #d6d0c8;
-  text-decoration: none;
-  padding: 1em;
-}
-
-nav a:hover {
-  text-decoration: double;
-}
-
-.active {
-  text-decoration: underline;
 }
 
 .index-picture {
