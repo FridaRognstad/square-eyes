@@ -1,13 +1,6 @@
 header {
   background-color: #1b1b1b;
-  background-size: contain;
-  background-repeat: no-repeat;
-  border-top: 1px;
-  margin-top: -1px;
-}
-
-header .logo .right-nav {
-  position: sticky;
+  padding: 80px;
 }
 
 header .right-nav {
