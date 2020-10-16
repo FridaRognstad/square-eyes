@@ -5,7 +5,7 @@ header {
   max-height: 270px;
 }
 
-.right-menu {
+.right-nav {
   display: inline-block;
   color: #d6d0c8;
   font-size: 1em;
@@ -13,6 +13,11 @@ header {
 
 .logo {
   max-width: 200px;
+  float: left;
+}
+
+.logo .right-nav {
+  float: right;
 }
 
 main {
