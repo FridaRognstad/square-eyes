@@ -141,32 +141,31 @@ p {
   border-radius: 10px;
   background-color: #a27201;
   font-family: sans-serif;
-  border: #a27201;
+  border: solid #a27201;
+  color: #d6d0c8;
+  text-decoration: none;
 }
 
 .button1:hover {
-  background-color: none;
+  background-color: #373736;
   border: solid #a27201;
   border-radius: 10px;
+  text-decoration: none;
 }
 
 .button2 {
   padding: 8px;
   border-radius: 10px;
-  border: #373736;
+  border: solid #373736;
   background-color: #373736;
   font-family: sans-serif;
+  color: #d6d0c8;
+  text-decoration: none;
 }
 
 .button2:hover {
-  background-color: none;
+  background-color: #a27201;
   border: solid #373736;
   border-radius: 10px;
-}
-
-button a {
   text-decoration: none;
-  color: #d6d0c8;
-  font-size: 1em;
-  overflow: hidden;
 }
