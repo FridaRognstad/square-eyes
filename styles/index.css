@@ -24,7 +24,6 @@ header .logo {
   background-color: #1b1b1b;
   position: sticky;
   top: 0;
-  margin-left: 50px;
 }
 
 nav li {
@@ -113,7 +112,7 @@ p {
   padding: 40px;
   background: #282827;
   border-radius: 0px 0px 10px 10px;
-  margin-left: 59px;
+  margin-left: 5%;
 }
 
 .index-section3 {
@@ -121,6 +120,8 @@ p {
   height: 130px;
   padding: 40px;
   border: #a27201 solid;
-  border-radius: 0px 0px 10px 10px;
-  margin-left: 72;
+  border-radius: 10px;
+  margin-right: 5%;
+  float: right;
+  margin-top: 2%;
 }
