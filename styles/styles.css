@@ -26,6 +26,28 @@ header .logo {
   top: 0;
 }
 
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: #d6d0c8;
+  text-decoration: none;
+  padding: 1em;
+  overflow: hidden;
+  display: block;
+  float: left;
+  padding: 5px 10px;
+}
+
+nav a:hover {
+  text-decoration: double;
+}
+
+.active {
+  text-decoration: underline;
+}
+
 main {
   background-color: #373736;
   font-family: Montserrat, Helvetica, sans-serif;
@@ -50,28 +72,6 @@ h3 {
 p {
   font-family: Roboto, sans-serif;
   color: #d6d0c8;
-}
-
-nav li {
-  display: inline-block;
-}
-
-nav a {
-  color: #d6d0c8;
-  text-decoration: none;
-  padding: 1em;
-  overflow: hidden;
-  display: block;
-  float: left;
-  padding: 5px 10px;
-}
-
-nav a:hover {
-  text-decoration: double;
-}
-
-.active {
-  text-decoration: underline;
 }
 
 .action {
