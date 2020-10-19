@@ -60,6 +60,10 @@ nav a {
   color: #d6d0c8;
   text-decoration: none;
   padding: 1em;
+  overflow: hidden;
+  display: block;
+  float: left;
+  padding: 5px 10px;
 }
 
 nav a:hover {
