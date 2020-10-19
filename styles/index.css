@@ -55,7 +55,7 @@ a {
   overflow: hidden;
 }
 
-a .button1:hover {
+.button1:hover {
   color: #a27201;
   background-color: #373736;
   border: solid #a27201;
@@ -156,6 +156,7 @@ p {
   background-color: #a27201;
   text-decoration: none;
   font-family: sans-serif;
+  border: none;
 }
 
 .button2 {
