@@ -38,7 +38,6 @@ nav a {
   display: block;
   float: left;
   padding: 5px 10px;
-  text-decoration: none;
 }
 
 nav a:hover {
@@ -47,6 +46,20 @@ nav a:hover {
 
 .active {
   text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #d6d0c8;
+  font-size: 1em;
+  overflow: hidden;
+}
+
+a .button1:hover {
+  color: #a27201;
+  background-color: #373736;
+  border: solid #a27201;
+  border-radius: 10px;
 }
 
 body {
@@ -141,18 +154,14 @@ p {
   padding: 10px;
   border-radius: 10px;
   background-color: #a27201;
-  color: #d6d0c8;
   text-decoration: none;
   font-family: sans-serif;
-  font-size: 1em;
 }
 
 .button2 {
   padding: 10px;
   border-radius: 10px;
   background-color: #373736;
-  color: #d6d0c8;
   text-decoration: none;
   font-family: sans-serif;
-  font-size: 1em;
 }
