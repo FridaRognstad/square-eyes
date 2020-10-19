@@ -112,6 +112,15 @@ p {
   height: 130px;
   padding: 40px;
   background: #282827;
-  margin-top: -50px;
   border-radius: 0px 0px 10px 10px;
+  margin-left: 59px;
+}
+
+.index-section3 {
+  width: 700px;
+  height: 130px;
+  padding: 40px;
+  border: #a27201 solid;
+  border-radius: 0px 0px 10px 10px;
+  margin-left: 72;
 }
