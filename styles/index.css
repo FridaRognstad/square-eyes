@@ -48,20 +48,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-a {
-  text-decoration: none;
-  color: #d6d0c8;
-  font-size: 1em;
-  overflow: hidden;
-}
-
-.button1:hover {
-  color: #a27201;
-  background-color: #373736;
-  border: solid #a27201;
-  border-radius: 10px;
-}
-
 body {
   font-family: Montserrat, Helvetica, sans-serif;
   margin: 0;
@@ -151,18 +137,36 @@ p {
 }
 
 .button1 {
-  padding: 10px;
+  padding: 8px;
   border-radius: 10px;
   background-color: #a27201;
-  text-decoration: none;
   font-family: sans-serif;
-  border: none;
+  border: #a27201;
+}
+
+.button1:hover {
+  background-color: none;
+  border: solid #a27201;
+  border-radius: 10px;
 }
 
 .button2 {
-  padding: 10px;
+  padding: 8px;
   border-radius: 10px;
+  border: #373736;
   background-color: #373736;
-  text-decoration: none;
   font-family: sans-serif;
+}
+
+.button2:hover {
+  background-color: none;
+  border: solid #373736;
+  border-radius: 10px;
+}
+
+button a {
+  text-decoration: none;
+  color: #d6d0c8;
+  font-size: 1em;
+  overflow: hidden;
 }
