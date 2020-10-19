@@ -24,6 +24,7 @@ header .logo {
   background-color: #1b1b1b;
   position: sticky;
   top: 0;
+  margin-left: 50px;
 }
 
 nav li {
