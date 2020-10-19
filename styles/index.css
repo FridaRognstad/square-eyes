@@ -122,8 +122,9 @@ p {
   border: #a27201 solid;
   border-radius: 10px;
   margin-right: 5%;
-  float: right;
+  position: relative;
   margin-top: 2%;
+  left: 35%;
 }
 
 .index-section4 {
@@ -133,4 +134,5 @@ p {
   background: #a27201;
   border-radius: 10px;
   margin-left: 5%;
+  margin-top: 2%;
 }
