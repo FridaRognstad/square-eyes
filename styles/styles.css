@@ -156,6 +156,6 @@ body {
 }
 
 .new-releases {
-  display: block;
+  display: flex;
   align-content: center;
 }
