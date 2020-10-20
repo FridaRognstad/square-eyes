@@ -52,7 +52,7 @@ nav a:hover {
 main {
   background-color: #373736;
   font-family: Montserrat, Helvetica, sans-serif;
-  background-image: url(images/background-films.jpg);
+  background-image: url(../images/background-films.jpg);
 }
 
 h1 {
