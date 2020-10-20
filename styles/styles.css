@@ -160,6 +160,6 @@ body {
   margin: auto;
 }
 
-.films-container {
-  display: inline-block;
+.content-wrap2 {
+  border: solid;
 }
