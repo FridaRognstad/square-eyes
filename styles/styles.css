@@ -134,4 +134,5 @@ body {
   display: flex;
   flex-flow: nowrap;
   justify-content: center;
+  justify-content: space-around;
 }
