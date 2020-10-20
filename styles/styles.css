@@ -159,3 +159,9 @@ body {
   display: block;
   align-content: center;
 }
+
+.films-content {
+  padding: 40px;
+  background-color: #282829;
+  width: 50%;
+}
