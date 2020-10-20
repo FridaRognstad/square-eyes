@@ -52,7 +52,8 @@ nav a:hover {
 main {
   font-family: Montserrat, Helvetica, sans-serif;
   background-image: url(../images/background-films.jpg);
-  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 150%;
 }
 
 h1 {
