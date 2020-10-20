@@ -45,7 +45,7 @@ nav a:hover {
 }
 
 .active {
-  text-decoration: underline;
+  text-decoration: underline 2px #a27201;
 }
 
 body {
