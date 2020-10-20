@@ -133,5 +133,5 @@ body {
   width: 100%;
   display: flex;
   flex-flow: nowrap;
-  justify-content: center, space-between;
+  justify-content: center, space-around;
 }
