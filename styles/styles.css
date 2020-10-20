@@ -147,3 +147,75 @@ body {
   margin-left: 23%;
   margin-top: 5%;
 }
+
+.slideshow {
+  position: relative;
+  overflow: hidden;
+  /* 'viewbox' - set size below to match native image height & width */
+  width: 400px;
+  height: 300px;
+}
+figure img {
+  float: left;
+}
+figure {
+  position: absolute;
+  /* 3 images in set + repeated first image = 4 x 100% */
+  width: 400%;
+  margin: 0;
+  -webkit-animation: slidey 10s infinite;
+  animation: slidey 10s infinite;
+}
+
+@-webkit-keyframes slidey {
+  0% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(0%);
+  }
+  33% {
+    transform: translateX(-25%);
+  }
+  58% {
+    transform: translateX(-25%);
+  }
+  66% {
+    transform: translateX(-50%);
+  }
+  91% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(-75%);
+  }
+}
+
+@keyframes slidey {
+  0% {
+    transform: translateX(0%);
+  }
+  25% {
+    transform: translateX(0%);
+  }
+
+  33% {
+    transform: translateX(-25%);
+  }
+  58% {
+    transform: translateX(-25%);
+  }
+
+  66% {
+    transform: translateX(-50%);
+  }
+  91% {
+    transform: translateX(-50%);
+  }
+  /* Sliding animation of last image back to first image here 
+     Then the tray resets to 0% X position at new zero time 
+       to show first image statically again */
+  100% {
+    transform: translateX(-75%);
+  }
+}
