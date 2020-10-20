@@ -157,5 +157,5 @@ body {
 
 .new-releases {
   display: flex;
-  align-content: center;
+  margin: auto;
 }
