@@ -159,3 +159,7 @@ body {
   display: flex;
   margin: auto;
 }
+
+.films-container {
+  display: inline-block;
+}
