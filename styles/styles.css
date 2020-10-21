@@ -76,6 +76,15 @@ p {
   color: #d6d0c8;
 }
 
+.hydralink {
+  text-decoration: underline;
+  color: #3e73e6;
+}
+
+.hydralink:hover {
+  color: #d6d0c8;
+}
+
 .h1-subtext {
   text-align: center;
 }
