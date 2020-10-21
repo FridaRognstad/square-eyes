@@ -121,12 +121,10 @@ p {
   border-radius: 10px 10px 10px 10px;
   padding: 20px;
   border: 1px solid #a27201;
-  float: left;
 }
 
 .producer-col {
   width: 70%;
-  float: right;
   background-color: #373736;
   padding: 20px;
   border: solid #e6b33e 1px;
@@ -137,7 +135,6 @@ p {
 .profile-picture {
   border-radius: 10px 10px 10px 10px;
   max-width: 30%;
-  float: left;
   background-color: #373736;
   margin: 20px;
   border: 1px, solid #a27201;
