@@ -80,6 +80,13 @@ p {
   text-align: center;
 }
 
+.h1-subtext2 {
+  text-align: center;
+  font-family: sans-serif;
+  color: #d6d0c8;
+  font-style: italic;
+}
+
 .action {
   display: inline;
 }
@@ -106,8 +113,9 @@ p {
   float: right;
   background-color: #373736;
   padding: 20px;
-  border: 1px, solid #e6b33e;
+  border: solid #e6b33e 1px;
   border-radius: 10px;
+  min-height: 240px;
 }
 
 .profile-picture {
@@ -134,22 +142,6 @@ body {
 .content-wrap {
   max-width: 1200px;
   margin: 0 auto;
-}
-
-.drama,
-.documentary,
-.action {
-  width: 55%;
-  display: flex;
-  flex-flow: nowrap;
-  justify-content: space-between;
-  margin-inline: auto;
-  margin-top: -16px;
-}
-
-.films-h2 {
-  margin-left: 23%;
-  margin-top: 5%;
 }
 
 .heading-content {
