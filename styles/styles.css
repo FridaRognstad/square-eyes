@@ -90,10 +90,15 @@ p {
 }
 
 .h1-subtext2 {
-  text-align: center;
   font-family: sans-serif;
   color: #d6d0c8;
   font-style: italic;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  margin-top: 0;
 }
 
 .action {
