@@ -59,6 +59,7 @@ h1 {
   color: #e6b33e;
   font-size: 2em;
   text-align: center;
+  margin-top: 5px;
 }
 
 h2 {
@@ -161,7 +162,7 @@ body {
 
 .heading-content {
   height: 130px;
-  padding: 40px;
+  padding: 40px 40px 80px 40px;
   background-color: #282829;
 }
 
