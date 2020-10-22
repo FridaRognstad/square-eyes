@@ -17,6 +17,8 @@ p {
   font-family: Roboto, sans-serif;
   color: #a27201;
   text-align: center;
+  font-style: italic;
+  font-weight: 200;
 }
 
 button {
