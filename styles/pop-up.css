@@ -7,7 +7,8 @@ body {
 h1 {
   font-family: Montserrat, Helvetica, sans-serif;
   color: #373736;
-  font-size: 2em;
+  font-size: 3em;
+  font-weight: 400;
   text-align: center;
 }
 
