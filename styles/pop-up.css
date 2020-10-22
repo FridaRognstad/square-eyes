@@ -65,5 +65,15 @@ button {
 }
 
 a {
+  color: #3e73e6;
+}
+
+.button1 {
+  padding: 8px;
+  border-radius: 10px;
+  background-color: #a27201;
+  font-family: sans-serif;
+  border: solid #a27201;
   color: #d6d0c8;
+  text-decoration: none;
 }
