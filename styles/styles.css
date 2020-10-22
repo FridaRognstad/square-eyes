@@ -121,6 +121,7 @@ p {
   border-radius: 10px 10px 10px 10px;
   padding: 20px;
   border: 1px solid #a27201;
+  flex: 1;
 }
 
 .producer-col {
@@ -130,6 +131,7 @@ p {
   border: solid #e6b33e 1px;
   border-radius: 10px;
   min-height: 240px;
+  flex: 2;
 }
 
 .profile-picture {
@@ -166,4 +168,8 @@ body {
 .new-releases {
   display: flex;
   margin: auto;
+}
+
+.felx-content {
+  display: flex;
 }
