@@ -23,7 +23,7 @@ button {
   color: #d6d0c8;
   text-decoration: none;
   background-color: #a27201;
-  border: solid #a27201;
+  border: solid 1px #a27201;
   border-radius: 0 10px 10px 0;
 }
 
@@ -36,12 +36,12 @@ button {
   padding: 14px;
   background-color: #d6d0c8;
   margin: auto;
-  border: solid #a27201;
+  border: solid 1px #a27201;
   border-radius: 10px;
 }
 
 .search-input {
-  border: solid #a27201;
+  border: solid 1px #a27201;
   border-radius: 10px 0 0 10px;
   padding: 3%;
   padding-right: 20%;
