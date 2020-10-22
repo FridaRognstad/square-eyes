@@ -23,7 +23,7 @@ a {
   padding: 1em;
   background-color: #a27201;
   border: solid #a27201;
-  border-radius: 10px 10px 0 0;
+  border-radius: 0 10px 10px 0;
 }
 
 .fas {
@@ -41,5 +41,5 @@ a {
 
 .search-input {
   border: solid #a27201;
-  border-radius: 0 0 10px 10px;
+  border-radius: 10px 0 0 10px;
 }
