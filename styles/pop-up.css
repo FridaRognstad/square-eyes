@@ -1,5 +1,5 @@
 body {
-  background-color: #373736;
+  background-color: #282827;
   font-family: Montserrat, Helvetica, sans-serif;
   margin: 10% 30%;
 }
@@ -55,4 +55,8 @@ button {
   display: flex;
   justify-content: center;
   align-items: stretch;
+}
+
+header {
+  float: left;
 }
