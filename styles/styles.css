@@ -188,13 +188,15 @@ body {
   border: solid #a27201;
   color: #d6d0c8;
   text-decoration: none;
+  margin-right: 80%;
   display: block;
-  margin: auto;
+  text-align: center;
+  margin-top: 10%;
 }
 
 .button1:hover {
   background-color: #373736;
   border: solid #a27201;
-  border-radius: 10px;
+  border-radius: 5px;
   text-decoration: none;
 }
