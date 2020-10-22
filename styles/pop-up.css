@@ -8,11 +8,13 @@ h1 {
   font-family: Montserrat, Helvetica, sans-serif;
   color: #373736;
   font-size: 2em;
+  text-align: center;
 }
 
 p {
   font-family: Roboto, sans-serif;
   color: #a27201;
+  text-align: center;
 }
 
 a {
@@ -21,7 +23,7 @@ a {
   padding: 1em;
   background-color: #a27201;
   border: solid #a27201;
-  border-radius: 0 10px 10px 0;
+  border-radius: 10px 10px 0 0;
 }
 
 .fas {
@@ -35,4 +37,9 @@ a {
   margin: auto;
   border: solid #a27201;
   border-radius: 10px;
+}
+
+.search-input {
+  border: solid #a27201;
+  border-radius: 0 0 10px 10px;
 }
