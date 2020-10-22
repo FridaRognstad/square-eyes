@@ -80,4 +80,7 @@ a {
 
 fieldset {
   border: 0;
+  display: flex;
+  flex-direction: column;
+  margin-inline: 20%;
 }
