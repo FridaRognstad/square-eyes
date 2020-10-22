@@ -66,6 +66,11 @@ button {
 
 a {
   color: #3e73e6;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 200;
+  font-size: 12px;
+  margin: 1%;
 }
 
 .button1 {
@@ -76,6 +81,8 @@ a {
   border: solid #a27201;
   color: #d6d0c8;
   text-decoration: none;
+  display: block;
+  margin: auto;
 }
 
 fieldset {
