@@ -51,6 +51,13 @@ button {
   padding-right: 20%;
 }
 
+.login-input {
+  border: solid 1px #a27201;
+  border-radius: 10px;
+  padding: 3%;
+  padding-right: 20%;
+}
+
 .form-section {
   display: flex;
   justify-content: center;
