@@ -124,12 +124,11 @@ p {
 }
 
 .producer-col {
-  width: 50%;
-  background-color: #373736;
+  width: 40%;
+  border-radius: 10px 10px 10px 10px;
   padding: 20px;
-  border: solid #e6b33e 1px;
-  border-radius: 10px;
-  min-height: 240px;
+  border: 1px solid #a27201;
+  margin-left: 40%;
 }
 
 .profile-picture {
@@ -170,6 +169,7 @@ body {
 
 .flex-content {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 10px;
+  grid-template-columns: 40% 60%;
+  align-items: stretch;
+  align-content: center;
 }
