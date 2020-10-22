@@ -177,4 +177,24 @@ body {
   grid-template-columns: 40% 60%;
   align-items: stretch;
   align-content: center;
+  column-gap: 30px;
+}
+
+.button1 {
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #a27201;
+  font-family: sans-serif;
+  border: solid #a27201;
+  color: #d6d0c8;
+  text-decoration: none;
+  display: block;
+  margin: auto;
+}
+
+.button1:hover {
+  background-color: #373736;
+  border: solid #a27201;
+  border-radius: 10px;
+  text-decoration: none;
 }
