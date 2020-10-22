@@ -1,7 +1,6 @@
 body {
   background-color: #282827;
   font-family: Montserrat, Helvetica, sans-serif;
-  margin: 10% 30%;
 }
 
 h1 {
@@ -42,6 +41,7 @@ button {
   margin: auto;
   border: solid 1px #a27201;
   border-radius: 10px;
+  margin: 10% 30%;
 }
 
 .search-input {
