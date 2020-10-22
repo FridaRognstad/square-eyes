@@ -91,3 +91,8 @@ fieldset {
   flex-direction: column;
   margin-inline: 20%;
 }
+
+label {
+  font-family: roboto;
+  color: #373736;
+}
