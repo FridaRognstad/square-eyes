@@ -20,7 +20,8 @@ p {
 button {
   color: #d6d0c8;
   text-decoration: none;
-  padding: 1em;
+  padding: 2%;
+  padding-inline: 6%;
   background-color: #a27201;
   border: solid #a27201;
   border-radius: 0 10px 10px 0;
@@ -44,4 +45,8 @@ button {
   border-radius: 10px 0 0 10px;
   padding: 3%;
   padding-right: 20%;
+}
+
+.form-section {
+  display: flex;
 }
