@@ -122,11 +122,11 @@ p {
 }
 
 .index-section2 {
-  width: 70%
+  width: 70%;
   padding: 40px;
   background: #282827;
   border-radius: 0px 0px 10px 10px;
-  margin: 0 0 5% 5%
+  margin: 0 0 5% 5%;
 }
 
 .index-section3 {
@@ -134,7 +134,7 @@ p {
   padding: 40px;
   border: #a27201 solid;
   border-radius: 10px;
-  margin-left: 0 5% 5% 38%;
+  margin: 0 5% 5% 38%;
 }
 
 .index-section4 {
@@ -142,7 +142,7 @@ p {
   padding: 40px;
   background: #a27201;
   border-radius: 10px;
-  margin: 2% 0 5% 5%
+  margin: 2% 0 5% 5%;
 }
 
 .button1 {
