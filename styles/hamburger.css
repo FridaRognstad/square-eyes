@@ -30,8 +30,13 @@ nav a {
 }
 
 nav a:hover {
-  text-decoration: underline;
-}
+    font-weight: 900;
+  }
+  
+  .active {
+    text-decoration: underline 2px #a27201;
+    text-underline-position: under;
+    font-weight: 500;
 
 .current {
   font-weight: bold;

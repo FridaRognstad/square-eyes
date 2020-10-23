@@ -41,12 +41,13 @@ nav a {
 }
 
 nav a:hover {
-  text-decoration: double;
+  font-weight: 900;
 }
 
 .active {
-  text-decoration: none;
-  border-bottom: solid #a27201 2px;
+  text-decoration: underline 2px #a27201;
+  text-underline-position: under;
+  font-weight: 500;
 }
 
 main {

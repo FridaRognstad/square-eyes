@@ -48,6 +48,7 @@ nav a:hover {
 .active {
   text-decoration: underline 2px #a27201;
   text-underline-position: under;
+  font-weight: 500;
 }
 
 body {
