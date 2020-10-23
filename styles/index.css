@@ -89,6 +89,7 @@ h4 {
   font-size: 2em;
   margin-left: 35%;
   margin-bottom: 2%;
+  margin-top: 2%;
 }
 
 p {
@@ -102,12 +103,14 @@ p {
 }
 .index-section4 p {
   margin-left: 35%;
+  margin-bottom: 5%;
 }
 
 .index-picture {
   max-width: 100px;
   float: left;
   border-radius: 50%;
+  margin-left: 8%;
 }
 
 .content-wrap {
@@ -134,8 +137,8 @@ p {
 }
 
 .index-section4 {
-  width: 700px;
-  height: 130px;
+  width: 50%;
+  height: 100%;
   padding: 40px;
   background: #a27201;
   border-radius: 10px;
@@ -168,6 +171,7 @@ p {
   font-family: sans-serif;
   color: #d6d0c8;
   text-decoration: none;
+  margin-inline: 40%;
 }
 
 .button2:hover {
