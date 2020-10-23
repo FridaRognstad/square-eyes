@@ -38,10 +38,11 @@ nav a {
   display: block;
   float: left;
   padding: 5px 10px;
+  font-weight: 100;
 }
 
 nav a:hover {
-  text-decoration: double;
+  font-weight: 900;
 }
 
 .active {
