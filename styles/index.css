@@ -94,7 +94,7 @@ p {
   font-size: 1em;
 }
 
-p h3 .index-section3 {
+.index-section3 p + h3 {
   margin-left: 15%;
 }
 
@@ -171,7 +171,7 @@ p h3 .index-section3 {
   text-decoration: none;
 }
 
-.fas .index-section3 {
+.index-section3 .fas {
   margin-right: 15%;
   font-size: 6em;
   float: right;
