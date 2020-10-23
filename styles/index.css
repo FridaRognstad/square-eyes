@@ -80,6 +80,7 @@ h3 {
   font-family: Montserrat, sans-serif;
   color: #a27201;
   font-size: 2em;
+  margin-right: 15%;
 }
 
 h4 {
@@ -94,7 +95,7 @@ p {
   font-size: 1em;
 }
 
-.index-section3 p h3 {
+.index-section3 p {
   margin-left: 15%;
 }
 
