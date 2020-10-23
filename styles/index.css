@@ -106,15 +106,14 @@ p {
   margin-left: 15%;
 }
 .index-section4 p {
-  margin-left: 35%;
-  margin-bottom: 5%;
+  margin: 0 8% 2% 35%;
 }
 
 .index-picture {
-  max-width: 100px;
+  max-width: 15%;
   float: left;
   border-radius: 50%;
-  margin-left: 8%;
+  margin: 1% 0 0 8%;
 }
 
 .content-wrap {
@@ -123,31 +122,27 @@ p {
 }
 
 .index-section2 {
-  width: 700px;
-  height: 130px;
+  width: 70%
   padding: 40px;
   background: #282827;
   border-radius: 0px 0px 10px 10px;
-  margin-left: 5%;
+  margin: 0 0 5% 5%
 }
 
 .index-section3 {
-  width: 700px;
-  height: 130px;
+  width: 70%;
   padding: 40px;
   border: #a27201 solid;
   border-radius: 10px;
-  margin-left: 38%;
+  margin-left: 0 5% 5% 38%;
 }
 
 .index-section4 {
-  width: 50%;
-  height: 100%;
+  width: 70%;
   padding: 40px;
   background: #a27201;
   border-radius: 10px;
-  margin-left: 5%;
-  margin-top: 2%;
+  margin: 2% 0 5% 5%
 }
 
 .button1 {
