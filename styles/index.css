@@ -94,7 +94,7 @@ p {
   font-size: 1em;
 }
 
-.index-section3 p + h3 {
+.index-section3 p h3 {
   margin-left: 15%;
 }
 
