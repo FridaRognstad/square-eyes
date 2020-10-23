@@ -87,6 +87,8 @@ h4 {
   font-family: Montserrat, sans-serif;
   color: #e6b33e;
   font-size: 2em;
+  margin-left: 35%;
+  margin-bottom: 2%;
 }
 
 p {
@@ -97,6 +99,9 @@ p {
 
 .index-section3 p {
   margin-left: 15%;
+}
+.index-section4 p {
+  margin-left: 35%;
 }
 
 .index-picture {
