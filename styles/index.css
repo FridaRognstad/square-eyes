@@ -74,6 +74,7 @@ h2 {
   color: #e6b33e;
   font-size: 2em;
   margin-top: 0;
+  text-align: center;
 }
 
 h3 {
@@ -98,6 +99,9 @@ p {
   font-size: 1em;
 }
 
+.index-section2 p {
+  text-align: center;
+}
 .index-section3 p {
   margin-left: 15%;
 }
@@ -148,36 +152,39 @@ p {
 
 .button1 {
   padding: 8px;
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: #a27201;
   font-family: sans-serif;
   border: solid #a27201;
   color: #d6d0c8;
   text-decoration: none;
+  display: block;
+  margin-inline: 39%;
+  text-align: center;
 }
 
 .button1:hover {
   background-color: #282827;
   border: solid #a27201;
-  border-radius: 10px;
-  text-decoration: none;
 }
 
 .button2 {
   padding: 8px;
-  border-radius: 10px;
+  border-radius: 5px;
   border: solid #373736;
   background-color: #373736;
   font-family: sans-serif;
   color: #d6d0c8;
   text-decoration: none;
-  margin-inline: 40%;
+  display: block;
+  margin-inline: 49%;
+  text-align: center;
 }
 
 .button2:hover {
   background-color: #a27201;
   border: solid #373736;
-  border-radius: 10px;
+  border-radius: 5px;
   text-decoration: none;
 }
 
