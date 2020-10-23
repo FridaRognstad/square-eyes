@@ -54,7 +54,11 @@ body {
 }
 
 main {
+  background-image: url(/images/watchingfilm.jpg);
   background-color: #373736;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .index-picture2 {
