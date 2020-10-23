@@ -57,8 +57,7 @@ main {
   background-image: url(/images/watchingfilm.jpg);
   background-color: #373736;
   background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-size: contain;
 }
 
 .index-picture2 {
@@ -70,7 +69,7 @@ h1 {
   font-family: Montserrat, Helvetica, sans-serif;
   color: #a27201;
   font-size: 3.7em;
-  margin: -80px 0 0 0;
+  margin: 0;
 }
 
 h2 {
@@ -130,7 +129,7 @@ p {
   padding: 40px;
   background: #282827;
   border-radius: 0px 0px 10px 10px;
-  margin: 40% 0 5% 5%;
+  margin: 0 0 5% 5%;
 }
 
 .index-section3 {
