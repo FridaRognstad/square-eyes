@@ -94,6 +94,10 @@ p {
   font-size: 1em;
 }
 
+p h3 .index-section3 {
+  margin-left: 15%;
+}
+
 .index-picture {
   max-width: 100px;
   float: left;
@@ -120,7 +124,7 @@ p {
   padding: 40px;
   border: #a27201 solid;
   border-radius: 10px;
-  display: f;
+  margin-left: 38%;
 }
 
 .index-section4 {
@@ -165,4 +169,10 @@ p {
   border: solid #373736;
   border-radius: 10px;
   text-decoration: none;
+}
+
+.fas .index-section3 {
+  margin-right: 15%;
+  font-size: 6em;
+  float: right;
 }
