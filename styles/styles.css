@@ -83,7 +83,7 @@ main {
 h1 {
   font-family: Montserrat, Helvetica, sans-serif;
   color: #e6b33e;
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
   margin-top: 5px;
 }
@@ -127,24 +127,6 @@ p {
   align-items: baseline;
   justify-content: center;
   margin-top: 0;
-}
-
-#create-account.html h2 {
-  font-size: 2em;
-  color: #a27201;
-}
-
-.action {
-  display: inline;
-}
-
-.film {
-  max-width: 150px;
-  border-width: 50px;
-}
-
-.film-big {
-  max-width: 500px;
 }
 
 .producer {
@@ -191,11 +173,6 @@ p {
   background-color: #282829;
 }
 
-.new-releases {
-  display: flex;
-  margin: auto;
-}
-
 .grid-content {
   display: grid;
   grid-template-columns: 40% 60%;
@@ -237,7 +214,7 @@ p {
 
 .profile-button {
   margin-right: 80%;
-  margin-bottom: 5%;
+  margin-top: 8%;
 }
 
 .create-account-button {
