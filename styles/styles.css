@@ -257,10 +257,11 @@ fieldset {
 
 .arrow-button {
   color: #a27201;
-  font-size: 2em;
+  font-size: 3em;
   background-color: #373736;
   border: 0;
-  margin: auto;
+  margin: 2% auto;
+  display: block;
 }
 
 .h1-form {
