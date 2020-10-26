@@ -22,11 +22,18 @@ header .logo {
 .small-header {
   height: 70px;
   display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 header .logo2 {
   max-height: 70px;
   margin: 0;
+}
+
+.small-header-wrap {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .navbar {
