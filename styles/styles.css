@@ -217,7 +217,6 @@ p {
   border: solid #a27201;
   color: #d6d0c8;
   text-decoration: none;
-  margin-right: 80%;
   display: block;
   text-align: center;
 }
@@ -239,6 +238,10 @@ p {
   background-color: #5d5d5c;
   min-width: 30%;
   margin-inline: 2%;
+}
+
+.profile-button {
+  margin-right: 80%;
 }
 
 .flex-content {
