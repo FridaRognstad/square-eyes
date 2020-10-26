@@ -170,7 +170,7 @@ p {
   border-radius: 5px;
   padding: 1% 15% 1% 1%;
   background-color: #d6d0c8;
-  margin: auto;
+  margin: auto auto 3% auto;
 }
 
 .content-wrap {
@@ -271,6 +271,7 @@ label {
   font-family: Roboto, sans-serif;
   text-transform: uppercase;
   color: #d6d0c8;
+  margin: 29%;
 }
 
 .personal-information {
