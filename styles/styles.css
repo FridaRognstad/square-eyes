@@ -235,3 +235,7 @@ p {
   align-items: stretch;
   margin: 5% 10% auto 10%;
 }
+
+.check-icon {
+  color: #a27201;
+}
