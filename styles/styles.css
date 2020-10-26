@@ -223,3 +223,9 @@ body {
   border-radius: 5px;
   text-decoration: none;
 }
+
+.create-account-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
