@@ -121,6 +121,11 @@ p {
   margin-top: 0;
 }
 
+#create-account.html h2 {
+  font-size: 2em;
+  color: #a27201;
+}
+
 .action {
   display: inline;
 }
