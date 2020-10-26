@@ -25,26 +25,25 @@
 
     <main>
         <form action="submit.php" method="GET">
-        <fieldset>
-            <legend>Banking details</legend>
+        <fieldset class="banking-details">
+            <h1 class="h1-form">Banking details</h1>
             <p>Everytime someone watches your work, you will get paid</p>
-
-            <label for="fullname">FULL NAME</label>
+            <label for="fullname">Full name</label>
             <input type="text" name="fullname" class="form__input" required>
-            <label for="adress">ADDRESS</label>
+            <label for="adress">Address</label>
             <input type="text" name="address" class="form__input" required>
-            <label for="city">CITY</label><label for="zipcode">ZIP CODE</label>
+            <label for="city">City</label><label for="zipcode">Zip code</label>
             <input type="text" name="city" required><input type="text" name="zipcode" class="form__input" required>
-            <label for="country">COUNTRY</label>
+            <label for="country">Country</label>
             <input type="text" name="country" class="form__input" required>
-            <label for="iban">IBAN</label>
+            <label for="iban">Iban</label>
             <input type="text" name="iban" class="form__input" required>
-            <label for="swift-bic">SWIFT / BIC</label>
+            <label for="swift-bic">Swift / Bic</label>
             <input type="text" name="swift-bic" class="form__input" required>
-            <label for="bankcode">BANKCODE (US)</label>
+            <label for="bankcode">Bankcode (US)</label>
             <input type="text" name="bankcode" class="form__input">
          </fieldset>
-            <input type="submit" value="next">
+         <button type="submit" class="arrow-button"><i class="fas fa-arrow-circle-right"></i></button>
         </form>
 
          <a href="../create-account-pro/create-account-pro3.html">Next</a>

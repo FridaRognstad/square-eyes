@@ -271,3 +271,7 @@ label {
   text-transform: uppercase;
   color: #d6d0c8;
 }
+
+.personal-information {
+  margin: 10% 30% 0 30%;
+}
