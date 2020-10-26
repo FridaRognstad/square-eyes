@@ -19,6 +19,16 @@ header .logo {
   float: left;
 }
 
+.small-header {
+  height: 70px;
+  display: flex;
+}
+
+header .logo2 {
+  max-height: 70px;
+  margin: 0;
+}
+
 .navbar {
   overflow: hidden;
   background-color: #1b1b1b;
