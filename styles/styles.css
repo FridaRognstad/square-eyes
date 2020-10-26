@@ -166,8 +166,10 @@ p {
 
 .form__input {
   display: block;
-  border: #e6b33e;
-  border-radius: 10px;
+  border: solid #e6b33e;
+  border-radius: 5px;
+  padding: 1% 15%;
+  color: #d6d0c8;
 }
 
 .content-wrap {
