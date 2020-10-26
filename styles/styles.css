@@ -233,5 +233,5 @@ p {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  margin-inline: 10%;
+  margin: 5% 10% auto 10%;
 }
