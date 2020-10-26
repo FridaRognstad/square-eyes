@@ -85,7 +85,15 @@ h1 {
   color: #e6b33e;
   font-size: 3em;
   text-align: center;
+  font-weight: 100;
+}
+
+.h1-producers {
   margin-top: 5px;
+}
+
+.h1-create-account {
+  margin-top: 5%;
 }
 
 h2 {
