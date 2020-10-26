@@ -246,3 +246,15 @@ p {
   display: flex;
   align-items: baseline;
 }
+
+fieldset {
+  border: solid 1px #a27201;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow-button {
+  color: #a27201;
+  font-size: 2em;
+}
