@@ -209,9 +209,6 @@ p {
 }
 
 .create-account-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   padding: 4%;
   border: solid 1px #a27201;
   border-radius: 10px;
