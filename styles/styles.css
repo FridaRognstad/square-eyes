@@ -257,4 +257,6 @@ fieldset {
 .arrow-button {
   color: #a27201;
   font-size: 2em;
+  background-color: #373736;
+  border: 0;
 }
