@@ -275,3 +275,7 @@ label {
 .personal-information {
   margin: 10% 30% 0 30%;
 }
+
+label .form__input {
+  margin-inline: 28%;
+}
