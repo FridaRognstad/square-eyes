@@ -235,8 +235,10 @@ p {
 
 .check-icon {
   color: #a27201;
+  margin-right: 10%;
 }
 
 .create-account-checklist {
   display: flex;
+  align-items: baseline;
 }
