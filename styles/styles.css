@@ -166,7 +166,7 @@ p {
 
 .form__input {
   display: block;
-  border: solid #e6b33e;
+  border: solid 1px #e6b33e;
   border-radius: 5px;
   padding: 1% 15%;
   color: #d6d0c8;
@@ -252,8 +252,6 @@ p {
 fieldset {
   border: solid 1px #a27201;
   border-radius: 10px;
-  display: flex;
-  flex-direction: column;
 }
 
 .arrow-button {
