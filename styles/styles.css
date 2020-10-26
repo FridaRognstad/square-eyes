@@ -226,6 +226,10 @@ p {
   margin: 10% 20% 0 20%;
 }
 
+.create-account-button:hover {
+  background-color: #5d5d5c;
+}
+
 .flex-content {
   display: flex;
   justify-content: center;
