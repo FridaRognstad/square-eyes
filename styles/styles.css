@@ -157,6 +157,9 @@ p {
   margin-right: 40%;
   margin-top: 30px;
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .profile-picture {
@@ -214,7 +217,6 @@ body {
   margin-right: 80%;
   display: block;
   text-align: center;
-  margin-top: 10%;
 }
 
 .button1:hover {
