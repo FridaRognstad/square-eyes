@@ -277,3 +277,14 @@ label {
 .personal-information {
   margin: 10% 30% 0 30%;
 }
+
+#newsletter {
+  background-color: #d6d0c8;
+  border: solid 1px #a27201;
+  border-radius: 2px;
+}
+
+.newsletter-section {
+  display: flex;
+  align-items: baseline;
+}
