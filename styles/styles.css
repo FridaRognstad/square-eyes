@@ -277,7 +277,7 @@ label {
 }
 
 .personal-information {
-  margin: 10% 30% 0 30%;
+  margin: 2% 30% 0 30%;
 }
 
 #newsletter {
@@ -309,4 +309,5 @@ label {
   display: flex;
   align-items: baseline;
   justify-content: center;
+  margin: 5% 0 0 0;
 }
