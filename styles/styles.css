@@ -292,13 +292,13 @@ label {
   align-items: stretch;
 }
 
-.cirle {
+.circle {
   color: #a27201;
   opacity: 0.5;
   font-size: 10px;
   margin: auto;
 }
 
-.active-cirle {
+.active-circle {
   opacity: 1;
 }
