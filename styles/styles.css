@@ -170,6 +170,7 @@ p {
   border-radius: 5px;
   padding: 1% 15% 1% 1%;
   background-color: #d6d0c8;
+  margin: auto;
 }
 
 .content-wrap {
@@ -274,8 +275,4 @@ label {
 
 .personal-information {
   margin: 10% 30% 0 30%;
-}
-
-label .form__input {
-  margin-inline: 28%;
 }
