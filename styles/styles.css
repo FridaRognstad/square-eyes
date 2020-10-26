@@ -302,3 +302,9 @@ label {
   color: #a27201;
   font-size: 12px;
 }
+
+.circle-section {
+  display: flex;
+  align-items: baseline;
+  align-content: center;
+}
