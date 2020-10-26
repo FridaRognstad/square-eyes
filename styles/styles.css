@@ -295,16 +295,18 @@ label {
 .circle {
   color: #a27201;
   opacity: 0.5;
-  font-size: 10px;
+  font-size: 1em;
+  padding: 6px;
 }
 
 .active-circle {
   color: #a27201;
-  font-size: 12px;
+  font-size: 1em;
+  padding: 6px;
 }
 
 .circle-section {
   display: flex;
   align-items: baseline;
-  align-content: center;
+  justify-content: center;
 }
