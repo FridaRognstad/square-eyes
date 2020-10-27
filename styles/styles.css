@@ -298,6 +298,16 @@ label {
   margin: 2% auto;
 }
 
+.credit-card {
+  width: 35%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  grid-template-rows: auto auto auto auto auto auto;
+  padding: 2% 0;
+  margin: 2% auto;
+}
+
 .newsletter {
   background-color: #d6d0c8;
   border: solid 1px #a27201;
