@@ -159,7 +159,7 @@ body {
 
 .new-releases {
   display: flex;
-  margin: auto;
+  align-items: center;
 }
 
 .films-grid {
