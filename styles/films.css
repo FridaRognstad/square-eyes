@@ -148,7 +148,6 @@ body {
 }
 
 .films-h2 {
-  margin-left: 23%;
   margin-top: 5%;
 }
 
@@ -165,4 +164,7 @@ body {
 
 .films-grid {
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+  justify-items: center;
 }
