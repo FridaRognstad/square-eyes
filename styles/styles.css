@@ -299,13 +299,14 @@ label {
 }
 
 .credit-card {
-  width: 35%;
+  width: 45%;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
-  grid-template-rows: auto auto auto auto auto auto;
+  grid-auto-flow: column;
   padding: 2% 0;
   margin: 2% auto;
+  grid-template-rows: auto auto auto auto auto;
 }
 
 .newsletter {
