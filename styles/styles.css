@@ -306,7 +306,7 @@ label {
   grid-auto-flow: column;
   padding: 2% 0;
   margin: 2% auto;
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto;
 }
 
 .newsletter {
