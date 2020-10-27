@@ -280,6 +280,11 @@ label {
   margin: 2% 30% 0 30%;
 }
 
+.banking-details {
+  margin: 2% 20% 2% 20%;
+  display: grid;
+}
+
 #newsletter {
   background-color: #d6d0c8;
   border: solid 1px #a27201;
