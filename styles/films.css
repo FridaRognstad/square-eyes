@@ -168,3 +168,29 @@ body {
   grid-template-rows: auto auto auto auto;
   justify-items: center;
 }
+
+.circle {
+  color: #a27201;
+  opacity: 0.5;
+  font-size: 0.1em;
+  padding: 4px;
+}
+
+.active-circle {
+  color: #a27201;
+  font-size: 0.1em;
+  padding: 4px;
+}
+
+.circle-section {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin: 0 0 5% 0;
+}
+
+.arrow-icon {
+  font-size: 100px;
+  color: #a27201;
+  opacity: 0, 5;
+}
