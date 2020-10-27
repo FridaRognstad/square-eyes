@@ -380,3 +380,7 @@ label {
   border: 1px, solid #a27201;
   border-radius: 10px;
 }
+
+.film-big {
+  max-width: 500px;
+}
