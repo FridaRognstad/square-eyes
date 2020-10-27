@@ -292,7 +292,7 @@ label {
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   grid-auto-flow: column;
-  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
   padding: 2% 3% 2% 0;
   margin: 2% auto;
 }
