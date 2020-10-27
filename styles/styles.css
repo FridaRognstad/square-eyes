@@ -306,7 +306,7 @@ label {
 .newsletter-section {
   display: flex;
   align-items: stretch;
-  margin: 100%;
+  width: 100%;
 }
 
 .circle {
