@@ -380,7 +380,7 @@ label {
   border-radius: 10px;
 }
 
-.producer-profile-section {
+.producer-section {
   display: flex;
   width: 50%;
   flex-direction: column;
