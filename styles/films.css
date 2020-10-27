@@ -172,13 +172,13 @@ body {
 .circle {
   color: #a27201;
   opacity: 0.5;
-  font-size: 0.1em;
+  font-size: 0.5em;
   padding: 4px;
 }
 
 .active-circle {
   color: #a27201;
-  font-size: 0.1em;
+  font-size: 0.5em;
   padding: 4px;
 }
 
@@ -190,7 +190,7 @@ body {
 }
 
 .arrow-icon {
-  font-size: 100px;
+  font-size: 0.6em;
   color: #a27201;
-  opacity: 0, 5;
+  opacity: 0.5;
 }
