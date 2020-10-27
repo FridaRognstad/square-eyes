@@ -367,11 +367,16 @@ label {
   margin-top: 0;
 }
 
+.producer-profile-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+}
+
 .profile-picture {
   border-radius: 10px 10px 10px 10px;
-  max-width: 30%;
-  background-color: #373736;
-  margin: 20px;
+  max-width: 300px;
+  padding: 10px;
   border: 1px, solid #a27201;
   border-radius: 10px;
 }
