@@ -161,7 +161,6 @@ p {
   color: #d6d0c8;
   text-decoration: none;
   display: block;
-  margin-inline: 39%;
   text-align: center;
 }
 
@@ -179,7 +178,6 @@ p {
   color: #d6d0c8;
   text-decoration: none;
   display: block;
-  margin-inline: 39%;
   text-align: center;
 }
 
@@ -194,4 +192,9 @@ p {
   margin-right: 15%;
   font-size: 6em;
   float: right;
+}
+
+.index-button {
+  width: 200px;
+  margin: center;
 }
