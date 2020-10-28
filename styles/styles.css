@@ -75,7 +75,7 @@ p {
   border: #d6d0c8 solid 1px;
   color: #d6d0c8;
   text-decoration: none;
-  display: block;
+  display: flex;
   background-color: #5d5d5c;
   font-family: roboto, sans-serif;
   font-size: 1em;
@@ -438,13 +438,9 @@ label {
 .button2-icon {
   font-size: 1em;
   color: #a27201;
+  margin: 0 5px 0 2px;
 }
 
 .manage-buttons {
   position: fixed;
-}
-
-.button2-icon .button2 {
-  display: flex;
-  align-content: center;
 }
