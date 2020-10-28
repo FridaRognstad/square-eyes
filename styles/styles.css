@@ -169,6 +169,14 @@ nav a:hover {
   font-weight: 500;
 }
 
+.active-icon {
+  color: #a27201;
+}
+
+.right-nav {
+  font-size: 1.5em;
+}
+
 /* Producers */
 
 .h1-producers {
