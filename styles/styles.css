@@ -232,7 +232,7 @@ nav a:hover {
   border-radius: 10px;
   background-color: #5d5d5c;
   min-width: 30%;
-  margin-inline: 2%;
+  margin: 0 2%;
 }
 
 .create-account-button {
