@@ -27,10 +27,6 @@ header .logo {
   z-index: 1;
 }
 
-.right-nav {
-  font-size: 1.5em;
-}
-
 nav li {
   display: inline-block;
 }
