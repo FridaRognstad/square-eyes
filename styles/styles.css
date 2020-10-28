@@ -80,6 +80,8 @@ p {
   font-family: roboto, sans-serif;
   font-size: 1em;
   font-weight: 100;
+  margin: 20px;
+  min-width: 150px;
 }
 
 .button2:hover {
@@ -434,10 +436,15 @@ label {
 }
 
 .button2-icon {
-  font-size: 0.5em;
+  font-size: 1em;
   color: #a27201;
 }
 
 .manage-buttons {
-  float: right;
+  position: fixed;
+}
+
+.button2-icon .button2 {
+  display: flex;
+  align-content: center;
 }
