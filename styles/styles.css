@@ -277,7 +277,8 @@ nav a:hover {
   border-radius: 5px;
   padding: 1%;
   background-color: #d6d0c8;
-  height: 50%;
+  height: 30px;
+  width: 230px;
 }
 
 fieldset {
