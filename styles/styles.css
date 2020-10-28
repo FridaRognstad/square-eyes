@@ -463,6 +463,6 @@ label {
 }
 
 .upload-profile-picture-button {
-  position: relative;
-  margin-top: 100px;
+  position: absolute;
+  margin-top: 80px;
 }
