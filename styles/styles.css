@@ -412,6 +412,7 @@ label {
   flex-direction: column;
   align-items: center;
   margin: auto;
+  margin-top: 50px;
 }
 
 .film-big {
@@ -457,5 +458,11 @@ label {
 }
 
 .save-changes-button {
-  width: fit-content;
+  width: 140px;
+  margin: auto;
+}
+
+.upload-profile-picture-button {
+  position: relative;
+  margin-top: 100px;
 }
