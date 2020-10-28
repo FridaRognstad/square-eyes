@@ -9,56 +9,77 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
       rel="stylesheet"
     />
-    <title>SquareEyes | Manage profile</title>
+    <title>SquareEyes | Producers</title>
     <meta
       name="description"
       content="This is a streaming site for film-lovers to watch independent films and for film producerst to show their work."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="../styles/styles.css" rel="stylesheet" />
+    <link href="styles/styles.css" rel="stylesheet" />
   </head>
 
   <body>
     <header>
-      <nav class="right-menu">
-        <a href="login.html">Sign in</a>
-        <i class="fas fa-search"></i>
-      </nav>
-      <a href="index.html"
-        ><img
-          src="images/logo2.png"
-          alt="SquarEyes - connecting film-lovers"
-          class="logo"
-      /></a>
-    </header>
+      <div class="content-wrap">
+        <a href="index.html"><img src="images/logo.png" alt="SquarEyes - connecting film-lovers" class="logo">
+          <nav class="right-nav">
+           <ul>
+            <a href="login.html">Sign in</a>
+            <a href="search.html"><i class="fas fa-search"></i></a>
+          </ul>
+          </nav>
+      </div>
+ </header>
 
-    <main>
-      <section>
-        <a href="">Upload profile picture</a>>
+  <main>
+    <nav class="navbar">
+      <ul style="margin-left: 59px;">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="films.html">Films</a></li>
+        <li><a href="producers.html" class="active">Producers</a></li>
+      </ul>
+    </nav>
+
+  <div class="producer-profile-grid">
+      <section class="producer-section">
+        <img src="images/blank-profile-picture.jpg" alt="Profile picture" class="profile-picture">
+        <div class="button2">
+            <div class="button2-icon">
+                <i class="fas fa-upload"></i>
+        </div>Upload profile picture</div>
         <h1>Name Surname</h1>
-        <p>DESCRIPTION</p>
-        <textarea id="message" name="message" rows="5" cols="30"></textarea>
+        <form>
+        <label for="producer-description" class="description">Description</label>
+            <textarea class="form__input" name="producer-description" rows="5" cols="30"></textarea>
+        </form>
       </section>
 
-      <section>
-        <a href="">Upload film</a>>
-        <h2>Upload your work</h2>
-        <p>TITLE</p>
-        <input type="text" name="filmtitle" />
-        <p>DESCRIPTION</p>
-        <textarea id="message" name="message" rows="5" cols="30"></textarea>
-        <p>TAGS</p>
-        <input type="text" name="tags" />
+      <section class="film-section">
+    <div class="button2">
+            <div class="button2-icon">
+                <i class="fas fa-upload"></i>
+        </div>Upload film</div>
+        <div class="button2">
+            <div class="button2-icon">
+                <i class="fas fa-upload"></i>
+        </div>Upload film picture</div>
+        <p><label for="film-title">Film title</label>
+            <input type="text" name="film-title" class="form__input"></p>
+            <label for="film-description" class="description">Description</label>
+            <textarea class="form__input" name="film-description" rows="5" cols="30"></textarea>
+            <p><label for="tags">Tags</label>
+                <input type="text" name="tags" placeholder="Catogory etc.." class="form__input"></p>
       </section>
-    </main>
-    <footer></footer>
-  </body>
+
+      <div class="button1"><a href="/account-producer.html">Save changes</a></div>
+  </div>
+   
+    <footer>
+
+    </footer>
 </html>
