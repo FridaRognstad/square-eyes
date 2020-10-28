@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
+    <title>SquareEyes | Create an account</title>
+    <meta name="description" content="This is a streaming site for film-lovers to watch independent films and for film producerst to show their work.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="small-header">
+      <div class="small-header-wrap">
+        <a href="/index.html"><img src="/images/logo2.png" alt="SquareEyes - connecting film-lovers" class="logo2">
+          <nav class="right-nav">
+           <ul>
+            <a href="/index.html"><i class="fas fa-home" style="font-size: 30px;"></i></a>
+          </ul>
+          </nav>
+    </div>
+  </header>
+
+    <main>
+        <section class="circle-section">
+        <div class="circle">  
+            <i class="fas fa-circle"></i>
+        </div>
+        <div class="active-circle">
+            <i class="fas fa-circle"></i>
+        </div>
+        <div class="circle">  
+            <i class="fas fa-circle"></i>
+        </div>
+    </section>
+
+        <form action="submit.php" method="GET">
+        <fieldset class="banking-details">
+            <div class="grid-h1">
+            <h1 class="h1-form">Banking details</h1>
+            <p>Everytime someone watches your work, you will get paid</p>
+        </div>
+            <p><label for="fullname">Full name</label>
+            <input type="text" name="fullname" class="form__input" required></p>
+            <p><label for="adress">Address</label>
+            <input type="text" name="address" class="form__input" required></p>
+            <p><label for="city">City</label>
+            <input type="text" name="city" class="form__input" required></p>
+            <p><label for="zipcode">Zip code</label>
+            <input type="text" name="zipcode" class="form__input" required></p>
+            <p><label for="country">Country</label>
+            <input type="text" name="country" class="form__input" required></p>
+            <p><label for="iban">Iban</label>
+            <input type="text" name="iban" class="form__input" required></p>
+            <p><label for="swift-bic">Swift / Bic</label>
+            <input type="text" name="swift-bic" class="form__input" required></p>
+            <p><label for="bankcode">Bankcode (US)</label>
+            <input type="text" name="bankcode" class="form__input"></p>
+         </fieldset>
+         <button type="submit" class="arrow-button"><i class="fas fa-arrow-circle-right"></i></button>
+        </form>
+
+         <a href="../create-account-pro/create-account-pro3.html">Next</a>
+    </main>
+
+    <footer>
+
+    </footer>
+</html>

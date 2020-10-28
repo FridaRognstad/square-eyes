@@ -69,6 +69,24 @@ p {
   text-decoration: none;
 }
 
+.button2 {
+  padding: 8px;
+  border-radius: 5px;
+  border: #d6d0c8 solid 1px;
+  color: #d6d0c8;
+  text-decoration: none;
+  display: block;
+  background-color: #5d5d5c;
+  font-family: roboto, sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.button2:hover {
+  background-color: #d6d0c8;
+  color: #373736;
+}
+
 /*Header*/
 
 header {
@@ -413,4 +431,13 @@ label {
 
 .play-icon :hover {
   opacity: 1;
+}
+
+.button2-icon {
+  font-size: 0.5em;
+  color: #a27201;
+}
+
+.manage-buttons {
+  float: right;
 }

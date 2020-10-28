@@ -61,8 +61,9 @@ main {
 h1 {
   font-family: Montserrat, Helvetica, sans-serif;
   color: #e6b33e;
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
+  font-weight: 100;
 }
 
 h2 {
