@@ -455,3 +455,7 @@ label {
   flex-direction: column;
   justify-content: flex-start;
 }
+
+.save-changes-button {
+  width: fit-content;
+}
