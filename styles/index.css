@@ -68,7 +68,6 @@ main {
 footer {
   background-color: #1b1b1b;
   width: 100%;
-  height: 50px;
   position: fixed;
   bottom: 0;
 }
@@ -81,14 +80,17 @@ footer {
 }
 
 footer .logo2 {
-  height: 100px;
+  height: 60px;
 }
 
 footer .fas {
   font-size: 30px;
 }
 
-footer ul {
+.footer-nav {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
 }
 
 footer a {
