@@ -205,11 +205,13 @@ body {
   grid-row: 2;
 }
 
-.drama a {
+.drama,
+.documentary.action a {
   font-family: roboto, sans-serif;
   color: #d6d0c8;
   text-decoration: none;
   text-transform: uppercase;
+  font-size: 1em;
 }
 
 .action-section {
