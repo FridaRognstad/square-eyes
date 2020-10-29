@@ -95,7 +95,7 @@ main {
   font-family: Montserrat, Helvetica, sans-serif;
   background-image: url(../images/background-films.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 150%;
+  background-size: 100% 112%;
 }
 
 h1 {
@@ -186,6 +186,10 @@ body {
   column-gap: 10px;
   align-items: center;
   margin-top: -16px;
+}
+
+.action-section {
+  margin-bottom: 6%;
 }
 
 .films-h2 {
