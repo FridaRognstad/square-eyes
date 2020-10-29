@@ -109,7 +109,9 @@ p {
   margin: 1% 0 0 8%;
 }
 
-.index-section2 .index-section3 .index-section4 {
+.index-section2,
+.index-section3,
+.index-section4 {
   width: 70%;
   padding: 40px;
 }
