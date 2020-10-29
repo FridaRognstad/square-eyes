@@ -205,8 +205,8 @@ body {
   grid-row: 2;
 }
 
-.drama,
-.documentary.action a {
+.drama a,
+.documentary a.action a {
   font-family: roboto, sans-serif;
   color: #d6d0c8;
   text-decoration: none;
