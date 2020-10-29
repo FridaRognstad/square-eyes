@@ -405,7 +405,7 @@ label {
 }
 
 .credit-card {
-  width: 250px;
+  min-width: 250px;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
