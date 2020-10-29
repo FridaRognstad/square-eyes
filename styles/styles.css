@@ -461,7 +461,7 @@ label {
 }
 
 .profile-picture {
-  max-width: 200px;
+  max-width: 150px;
   padding: 10px;
   border: 1px solid #a27201;
   border-radius: 10px;
@@ -469,7 +469,7 @@ label {
 
 .producer-section {
   display: flex;
-  width: 500px;
+  min-width: 250px;
   flex-direction: column;
   align-items: center;
   margin: auto;
@@ -477,7 +477,7 @@ label {
 }
 
 .film-big {
-  max-width: 700px;
+  max-width: 100%;
   position: relative;
 }
 
@@ -593,6 +593,18 @@ label {
   .personal-information {
     width: 35%;
     margin: 2% auto;
+  }
+
+  .profile-picture {
+    max-width: 200px;
+  }
+
+  .producer-section {
+    width: 500px;
+  }
+
+  .film-big {
+    max-width: 700px;
   }
 }
 @media (min-width: 1000px) {
