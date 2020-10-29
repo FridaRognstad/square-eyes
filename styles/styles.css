@@ -590,7 +590,8 @@ label {
     width: 35%;
     margin: 2% auto;
   }
-
+}
+@media (min-width: 1000px) {
   .grid-h1 {
     grid-column: 1 / 3;
   }
