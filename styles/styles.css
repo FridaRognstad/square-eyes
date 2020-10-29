@@ -330,6 +330,14 @@ footer a {
   width: 230px;
 }
 
+.form__input-description {
+  display: block;
+  border: solid 1px #e6b33e;
+  border-radius: 5px;
+  padding: 1%;
+  background-color: #d6d0c8;
+}
+
 fieldset {
   border: solid 1px #a27201;
   border-radius: 10px;
@@ -524,11 +532,6 @@ label {
   margin: auto;
 }
 
-.upload-profile-picture-button {
-  position: absolute;
-  margin-top: 80px;
-}
-
 .search-input {
   border: solid 1px #a27201;
   border-radius: 5px 0 0 5px;
@@ -619,6 +622,11 @@ label {
 
   .manage-buttons {
     position: fixed;
+  }
+
+  .upload-profile-picture-button {
+    position: absolute;
+    margin-top: 80px;
   }
 }
 @media (min-width: 1000px) {
