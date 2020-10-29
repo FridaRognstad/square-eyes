@@ -68,13 +68,27 @@ main {
 footer {
   background-color: #1b1b1b;
   width: 100%;
-  display: grid;
-  grid-template-columns: 200px 100px 100px 100px 100px 200px;
   color: #d6d0c8;
 }
 
 footer .logo2 {
   height: 50px;
+  float: left;
+}
+
+footer .fas {
+  float: right;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer li {
+  text-decoration: none;
+  color: #d6d0c8;
 }
 
 .index-picture2 {
