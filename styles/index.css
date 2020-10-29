@@ -109,28 +109,27 @@ p {
   margin: 1% 0 0 8%;
 }
 
-.index-section2 {
+.index-section2 .index-section3 .index-section4 {
   width: 70%;
   padding: 40px;
+}
+
+.index-section2 {
   background: #282827;
-  border-radius: 0px 0px 10px 10px;
-  margin: 6% 0 5% 5%;
+  border-radius: 10px;
+  margin: 0 auto 2% auto;
 }
 
 .index-section3 {
-  width: 70%;
-  padding: 40px;
   border: #a27201 solid;
   border-radius: 10px;
-  margin: 0 5% 5% 18%;
+  margin: 2% auto;
 }
 
 .index-section4 {
-  width: 70%;
-  padding: 40px;
   background: #a27201;
   border-radius: 10px;
-  margin: 2% 0 5% 5%;
+  margin: 2% auto;
 }
 
 .button1 {
@@ -248,6 +247,20 @@ li {
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  .index-section2 {
+    border-radius: 0px 0px 10px 10px;
+    margin: 6% 0 5% 5%;
+  }
+
+  .index-section3 {
+    margin: 0 5% 5% 18%;
+  }
+
+  .index-section4 {
+    margin: 2% 0 5% 5%;
+  }
+
   .footer-nav {
     display: grid;
     grid-template-columns: auto auto auto auto;
