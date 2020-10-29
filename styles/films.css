@@ -55,6 +55,42 @@ nav a:hover {
   font-weight: 500;
 }
 
+footer {
+  background-color: #1b1b1b;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .logo2 {
+  height: 46px;
+  padding: 10px;
+}
+
+footer .fas {
+  font-size: 22px;
+}
+
+.footer-nav {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 30px;
+  font-size: 12px;
+  font-family: roboto, sans-serif;
+  text-transform: uppercase;
+}
+
+footer a {
+  text-decoration: none;
+  color: #d6d0c8;
+}
+
 main {
   font-family: Montserrat, Helvetica, sans-serif;
   background-image: url(../images/background-films.jpg);
