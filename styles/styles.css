@@ -476,6 +476,10 @@ label {
   margin-top: 50px;
 }
 
+.producer-section h1 {
+  font-size: 2em;
+}
+
 .film-big {
   max-width: 100%;
   position: relative;
