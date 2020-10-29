@@ -372,13 +372,13 @@ label {
 }
 
 .personal-information {
-  width: 35%;
+  min-width: 200px;
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
   grid-template-rows: auto auto auto auto auto auto;
   padding: 2% 0;
-  margin: 2% auto;
+  margin: 4%;
 }
 
 .newsletter {
@@ -585,5 +585,10 @@ label {
 
   .create-account-section {
     margin: 0 2%;
+  }
+
+  .personal-information {
+    width: 35%;
+    margin: 2% auto;
   }
 }
