@@ -6,6 +6,10 @@ header {
   padding: 0px;
 }
 
+nav {
+  display: none;
+}
+
 header .logo {
   max-height: 100px;
   margin-top: 0;
@@ -48,17 +52,11 @@ footer .fas {
 }
 
 .footer-nav {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 30px;
-  font-size: 12px;
-  font-family: roboto, sans-serif;
-  text-transform: uppercase;
+  display: none;
 }
 
 footer a {
-  text-decoration: none;
-  color: #d6d0c8;
+  display: none;
 }
 
 .index-picture2 {
@@ -238,5 +236,18 @@ p {
   .content-wrap {
     max-width: 1200px;
     margin: 0 auto;
+  }
+  .footer-nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    font-size: 12px;
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: #d6d0c8;
   }
 }
