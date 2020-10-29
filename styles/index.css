@@ -64,6 +64,14 @@ main {
   background-size: contain;
 }
 
+footer {
+  background-color: #1b1b1b;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 200px 100px 100px 100px 100px 200px;
+  color: #d6d0c8;
+}
+
 .index-picture2 {
   max-width: 100%;
   margin-top: 0px;
