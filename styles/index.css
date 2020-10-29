@@ -36,7 +36,7 @@ footer {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   justify-content: space-around;
   align-items: center;
 }
@@ -255,5 +255,9 @@ li {
     font-size: 12px;
     font-family: roboto, sans-serif;
     text-transform: uppercase;
+  }
+
+  .footer-grid {
+    grid-template-columns: auto auto auto;
   }
 }
