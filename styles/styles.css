@@ -548,12 +548,13 @@ label {
 
 .profile-picture-watcher {
   width: 100%;
+  border-radius: 10px;
 }
 
 .watcher-profile-grid {
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  border: solid 1px;
+  border: solid 1px #a27201;
   border-radius: 10px;
   align-items: center;
   padding: 30px;
