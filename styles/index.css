@@ -12,31 +12,6 @@ header .logo {
   float: left;
 }
 
-nav li {
-  display: inline-block;
-}
-
-nav a {
-  color: #d6d0c8;
-  text-decoration: none;
-  padding: 1em;
-  overflow: hidden;
-  display: block;
-  float: left;
-  padding: 5px 10px;
-  font-weight: 100;
-}
-
-nav a:hover {
-  font-weight: 900;
-}
-
-.active {
-  text-decoration: underline 2px #a27201;
-  text-underline-position: under;
-  font-weight: 500;
-}
-
 body {
   font-family: Montserrat, Helvetica, sans-serif;
   margin: 0;
@@ -145,11 +120,6 @@ p {
   margin: 1% 0 0 8%;
 }
 
-.content-wrap {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .index-section2 {
   width: 70%;
   padding: 40px;
@@ -231,11 +201,42 @@ p {
     font-family: roboto, sans-serif;
     font-size: 20px;
   }
+
   header .right-nav {
     color: #d6d0c8;
     font-size: 1em;
     float: right;
     font-size: 20px;
     font-family: roboto, sans-serif;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  nav a {
+    color: #d6d0c8;
+    text-decoration: none;
+    padding: 1em;
+    overflow: hidden;
+    display: block;
+    float: left;
+    padding: 5px 10px;
+    font-weight: 100;
+  }
+
+  nav a:hover {
+    font-weight: 900;
+  }
+
+  .active {
+    text-decoration: underline 2px #a27201;
+    text-underline-position: under;
+    font-weight: 500;
+  }
+
+  .content-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }
