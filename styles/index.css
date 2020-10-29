@@ -72,6 +72,10 @@ footer {
   color: #d6d0c8;
 }
 
+footer .logo2 {
+  height: 50px;
+}
+
 .index-picture2 {
   max-width: 100%;
   margin-top: 0px;
