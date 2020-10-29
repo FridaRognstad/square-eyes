@@ -269,6 +269,6 @@ body {
   opacity: 0.5;
 }
 
-.films-grid a:hover {
+a:hover {
   transform: scale(1);
 }
