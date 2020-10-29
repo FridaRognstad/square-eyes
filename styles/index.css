@@ -71,6 +71,10 @@ footer {
   height: 50px;
 }
 
+.footer-grid {
+  display: grid;
+}
+
 footer .logo2 {
   height: 50px;
 }
