@@ -205,7 +205,7 @@ body {
   grid-row: 2;
 }
 
-main a {
+.films-grid a {
   font-family: roboto, sans-serif;
   color: #d6d0c8;
   text-decoration: none;
