@@ -7,9 +7,8 @@ header {
 }
 
 header .logo {
-  max-height: 100px;
+  max-height: 80px;
   margin-top: 0;
-  float: left;
 }
 
 header .right-nav {
@@ -195,6 +194,12 @@ li {
 }
 
 @media (min-width: 900px) {
+  header .logo {
+    max-height: 100px;
+    margin-top: 0;
+    float: left;
+  }
+
   .navbar {
     overflow: hidden;
     background-color: #1b1b1b;
