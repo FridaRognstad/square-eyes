@@ -190,6 +190,7 @@ footer {
   grid-template-columns: auto auto auto;
   justify-content: space-around;
   align-items: center;
+  margin-top: 5%;
 }
 
 footer .logo2 {
