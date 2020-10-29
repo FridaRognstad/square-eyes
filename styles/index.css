@@ -79,17 +79,21 @@ footer {
 }
 
 footer .logo2 {
-  height: 60px;
+  height: 46px;
+  padding: 10px;
 }
 
 footer .fas {
-  font-size: 30px;
+  font-size: 22px;
 }
 
 .footer-nav {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  grid-gap: 20px;
+  grid-gap: 30px;
+  font-size: 12px;
+  font-family: roboto, sans-serif;
+  text-transform: uppercase;
 }
 
 footer a {
