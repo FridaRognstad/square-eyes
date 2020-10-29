@@ -1,4 +1,7 @@
 /* General */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: Montserrat, Helvetica, sans-serif;
