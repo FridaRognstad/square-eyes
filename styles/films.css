@@ -268,3 +268,7 @@ body {
   color: #a27201;
   opacity: 0.5;
 }
+
+.films-grid a:hover {
+  transform: scale(1);
+}
