@@ -526,8 +526,6 @@ label {
 .search-input {
   border: solid 1px #a27201;
   border-radius: 5px 0 0 5px;
-  padding: 3%;
-  padding-right: 20%;
 }
 
 button {
