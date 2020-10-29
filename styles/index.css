@@ -75,14 +75,17 @@ footer {
 
 .footer-grid {
   display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  align-items: center;
 }
 
 footer .logo2 {
-  height: 50px;
+  height: 100px;
 }
 
 footer .fas {
-  font-size: 45px;
+  font-size: 30px;
 }
 
 footer ul {
