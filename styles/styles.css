@@ -433,6 +433,10 @@ label {
   padding: 4%;
 }
 
+.success-section h1 {
+  font-size: 1em;
+}
+
 .h1-subtext {
   text-align: center;
   margin-bottom: 0;
@@ -611,5 +615,9 @@ label {
   .success-section {
     max-width: 50%;
     margin: 5% auto;
+  }
+
+  .success-section h1 {
+    font-size: 3em;
   }
 }
