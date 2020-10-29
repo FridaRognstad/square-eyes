@@ -189,7 +189,7 @@ body {
 }
 
 .film-label {
-  grid-column: 5;
+  grid-column: 2 3 4 5;
   grid-row: 2;
 }
 
