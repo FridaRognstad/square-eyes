@@ -10,7 +10,8 @@ header .right-nav {
   color: #d6d0c8;
   font-size: 1em;
   float: right;
-  margin: 0;
+  font-size: 20px;
+  font-family: roboto, sans-serif;
 }
 
 header .logo {
@@ -25,6 +26,8 @@ header .logo {
   position: sticky;
   top: 0;
   z-index: 1;
+  font-family: roboto, sans-serif;
+  font-size: 20px;
 }
 
 nav li {
