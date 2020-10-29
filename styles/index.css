@@ -181,6 +181,19 @@ p {
   margin: auto;
 }
 
+footer a {
+  text-decoration: none;
+  color: #d6d0c8;
+}
+
+nav {
+  display: none;
+}
+
+.footer-nav {
+  display: none;
+}
+
 @media (min-width: 900px) {
   .navbar {
     overflow: hidden;
@@ -237,10 +250,5 @@ p {
     font-size: 12px;
     font-family: roboto, sans-serif;
     text-transform: uppercase;
-  }
-
-  footer a {
-    text-decoration: none;
-    color: #d6d0c8;
   }
 }
