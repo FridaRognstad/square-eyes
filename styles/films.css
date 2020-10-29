@@ -188,11 +188,6 @@ body {
   margin-top: -16px;
 }
 
-.film-label {
-  grid-column: 2 3 4 5;
-  grid-row: 2;
-}
-
 .action-section {
   margin-bottom: 6%;
 }
