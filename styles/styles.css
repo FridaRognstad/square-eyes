@@ -283,7 +283,8 @@ footer a {
 }
 
 .create-account-button {
-  margin: 10% 20% 0 20%;
+  width: 200px;
+  margin: auto;
 }
 
 .create-account-button:hover {
