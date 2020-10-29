@@ -223,6 +223,11 @@ footer a {
   color: #d6d0c8;
 }
 
+footer a {
+  text-decoration: none;
+  color: #d6d0c8;
+}
+
 /* Producers */
 
 .h1-producers {
