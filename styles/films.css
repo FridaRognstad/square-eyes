@@ -205,6 +205,13 @@ body {
   grid-row: 2;
 }
 
+a {
+  font-family: roboto, sans-serif;
+  color: #d6d0c8;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 .action-section {
   margin-bottom: 6%;
 }
