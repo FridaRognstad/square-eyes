@@ -194,6 +194,10 @@ li {
   display: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 @media (min-width: 900px) {
   header .logo {
     max-height: 100px;
