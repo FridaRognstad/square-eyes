@@ -19,6 +19,7 @@ h1 {
   font-size: 3em;
   text-align: center;
   font-weight: 100;
+  margin: 5px;
 }
 
 h2 {
@@ -225,10 +226,6 @@ footer a {
 }
 
 /* Producers */
-
-.h1-producers {
-  margin-top: 5px;
-}
 
 .producer {
   width: 50%;
