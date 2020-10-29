@@ -279,7 +279,7 @@ footer a {
   border-radius: 10px;
   background-color: #5d5d5c;
   min-width: 30%;
-  margin: 0 2%;
+  margin: 3%;
 }
 
 .create-account-button {
@@ -295,7 +295,8 @@ footer a {
   display: flex;
   justify-content: center;
   align-items: stretch;
-  margin: 5% 10% auto 10%;
+  margin: 5%;
+  flex-direction: column;
 }
 
 .check-icon {
@@ -574,4 +575,15 @@ label {
 .watcher-profile-grid p {
   opacity: 0.7;
   margin-top: 0;
+}
+
+@media (min-width: 900px) {
+  .flex-content {
+    margin: 5% 10% auto 10%;
+    flex-direction: row;
+  }
+
+  .create-account-section {
+    margin: 0 2%;
+  }
 }
