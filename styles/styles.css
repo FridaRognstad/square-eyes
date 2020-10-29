@@ -425,11 +425,11 @@ label {
 .success-section {
   border: solid #a27201 1px;
   border-radius: 10px;
-  max-width: 50%;
+  min-width: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 5% auto;
+  margin: 4%;
   padding: 4%;
 }
 
@@ -606,5 +606,10 @@ label {
   .credit-card {
     width: 45%;
     margin: 2% auto;
+  }
+
+  .success-section {
+    max-width: 50%;
+    margin: 5% auto;
   }
 }
