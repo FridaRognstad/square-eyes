@@ -547,15 +547,18 @@ label {
 }
 
 .profile-picture-watcher {
-  width: 40%;
+  width: 100%;
 }
 
 .watcher-profile-grid {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 2fr 1fr;
   border: solid 1px;
   border-radius: 10px;
   align-items: center;
+  padding: 30px;
+  justify-items: center;
+  margin: 2% 10%;
 }
 
 .watcher-profile-grid h2 {
