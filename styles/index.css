@@ -6,10 +6,6 @@ header {
   padding: 0px;
 }
 
-nav {
-  display: none;
-}
-
 header .logo {
   max-height: 100px;
   margin-top: 0;
@@ -49,14 +45,6 @@ footer .logo2 {
 
 footer .fas {
   font-size: 22px;
-}
-
-.footer-nav {
-  display: none;
-}
-
-footer a {
-  display: none;
 }
 
 .index-picture2 {
