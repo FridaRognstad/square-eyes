@@ -6,28 +6,10 @@ header {
   padding: 0px;
 }
 
-header .right-nav {
-  color: #d6d0c8;
-  font-size: 1em;
-  float: right;
-  font-size: 20px;
-  font-family: roboto, sans-serif;
-}
-
 header .logo {
   max-height: 100px;
   margin-top: 0;
   float: left;
-}
-
-.navbar {
-  overflow: hidden;
-  background-color: #1b1b1b;
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  font-family: roboto, sans-serif;
-  font-size: 20px;
 }
 
 nav li {
@@ -237,4 +219,23 @@ p {
 .index-button {
   width: 200px;
   margin: auto;
+}
+
+@media (min-width: 900px) {
+  .navbar {
+    overflow: hidden;
+    background-color: #1b1b1b;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    font-family: roboto, sans-serif;
+    font-size: 20px;
+  }
+  header .right-nav {
+    color: #d6d0c8;
+    font-size: 1em;
+    float: right;
+    font-size: 20px;
+    font-family: roboto, sans-serif;
+  }
 }
