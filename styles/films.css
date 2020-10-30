@@ -141,8 +141,9 @@ p {
 }
 
 .film-big {
-  max-width: 500px;
+  90%
 }
+
 
 body {
   font-family: Montserrat, Helvetica, sans-serif;
@@ -231,13 +232,23 @@ body {
 }
 
 .arrow-icon {
-  font-size: 50px;
-  color: #a27201;
-  opacity: 0.5;
+  display: none;
 }
 
 a:hover {
   transform: scale(1);
+}
+
+@media (min-width: 700px) {
+  .arrow-icon {
+    font-size: 50px;
+    color: #a27201;
+    opacity: 0.5;
+  }
+  
+  .film-big {
+  max-width: 500px;
+}
 }
 
 @media (min-width: 900px) {
