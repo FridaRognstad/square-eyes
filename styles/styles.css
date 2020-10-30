@@ -19,7 +19,7 @@ main {
 h1 {
   font-family: Montserrat, Helvetica, sans-serif;
   color: #e6b33e;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
   font-weight: 100;
   margin: 5px;
@@ -576,6 +576,10 @@ label {
 }
 
 @media (min-width: 900px) {
+  h1 {
+    font-size: 3em;
+  }
+  
   .flex-content {
     margin: 5% 10% auto 10%;
     flex-direction: row;
