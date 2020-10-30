@@ -589,6 +589,14 @@ label {
   margin-top: 0;
 }
 
+.credit-card-icon {
+  color: #d6d0c8;
+}
+
+.watch-button {
+  width: 300px;
+}
+
 @media (min-width: 900px) {
   h1 {
     font-size: 3em;
