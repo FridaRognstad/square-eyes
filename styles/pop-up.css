@@ -6,7 +6,7 @@ body {
 h1 {
   font-family: Montserrat, Helvetica, sans-serif;
   color: #373736;
-  font-size: 3em;
+  font-size: 2em;
   font-weight: 400;
   text-align: center;
   margin: 2%;
@@ -99,6 +99,10 @@ label {
 }
 
 @media (min-width: 900px) {
+  h1 {
+    font-size: 3em;
+  }
+
   .popup-section {
     margin: 10% 32%;
     width: 380px;
