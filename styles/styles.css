@@ -254,8 +254,8 @@ footer a {
 }
 
 .profile-button {
-  margin-right: 80%;
-  margin-top: 8%;
+  margin: auto;
+  width: 120px;
 }
 
 /* Create an account */
@@ -650,6 +650,9 @@ label {
   .producer-col {
     margin: 30px 40% 10px 0;
   }
+
+  .profile-button {
+    margin: 8% 0 0 0;
 }
 @media (min-width: 1000px) {
   .grid-h1 {
