@@ -10,6 +10,10 @@ body {
   background: cover;
 }
 
+.black-background body {
+  background-color: black;
+}
+
 main {
   background-color: #373736;
   background: cover;
@@ -492,6 +496,7 @@ label {
   border-radius: 10px;
   padding: 20px;
   margin: 4%;
+  background-color: #373736;
 }
 
 .play-icon {
