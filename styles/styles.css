@@ -595,6 +595,7 @@ label {
 
 .watch-button {
   width: 300px;
+  text-align: center;
 }
 
 @media (min-width: 900px) {
