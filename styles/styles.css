@@ -473,6 +473,7 @@ label {
   flex-direction: column;
   align-items: center;
   margin: 4%;
+  text-align: center;
 }
 
 .producer-section h1 {
@@ -555,13 +556,20 @@ label {
 
 .watcher-profile-grid {
   display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: auto auto auto;
   border: solid 1px #a27201;
   border-radius: 10px;
   align-items: center;
   padding: 30px;
   justify-items: center;
   margin: 2% 10%;
+}
+
+.personal-watcher {
+  border: solid 1px darkgray;
+  border-radius: 10px;
+  width: 90%;
+  padding: 4% 4% 4% 4%;
 }
 
 .watcher-profile-grid h2 {
@@ -578,7 +586,7 @@ label {
   h1 {
     font-size: 3em;
   }
-  
+
   .flex-content {
     margin: 5% 10% auto 10%;
     flex-direction: row;
@@ -656,13 +664,25 @@ label {
 
   .profile-button {
     margin: 8% 0 0 0;
-}
+  }
 
-.play-icon {
-  margin-top: -250px;
-  margin-left: 320px;
-}
+  .play-icon {
+    margin-top: -250px;
+    margin-left: 320px;
+  }
 
+  .personal-watcher {
+    border: none;
+    border-radius: 0;
+    width: auto;
+    padding: 0;
+  }
+
+  .watcher-profile-grid {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+  }
+}
 
 @media (min-width: 1000px) {
   .grid-h1 {
