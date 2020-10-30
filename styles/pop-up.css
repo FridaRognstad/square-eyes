@@ -67,11 +67,15 @@ button {
 
 a {
   font-family: Roboto, sans-serif;
-  color: #3e73e6;
+  color: #d6d0c8;
   text-align: center;
   font-weight: 400;
   font-size: 12px;
   margin: 1%;
+}
+
+.not-a-member a {
+  color: #3e73e6;
 }
 
 .button1 {
@@ -98,6 +102,10 @@ label {
   color: #373736;
 }
 
+.search-icon {
+  font-size: 20px;
+}
+
 @media (min-width: 900px) {
   h1 {
     font-size: 3em;
@@ -106,5 +114,9 @@ label {
   .popup-section {
     margin: 10% 32%;
     width: 380px;
+  }
+
+  .search-icon {
+    font-size: 28px;
   }
 }
