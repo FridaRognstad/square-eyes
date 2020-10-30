@@ -590,8 +590,8 @@ label {
 }
 
 .watch-button {
-  width: 300px;
-  text-align: center;
+  width: 130px;
+  margin: auto;
 }
 
 @media (min-width: 900px) {
