@@ -241,12 +241,6 @@ a:hover {
 }
 
 @media (min-width: 900px) {
-  main {
-    background-image: url(../images/background-films.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 112%;
-  }
-
   h1 {
     font-size: 3em;
   }
@@ -254,5 +248,12 @@ a:hover {
   .content-wrap {
     max-width: 1200px;
     margin: 0 auto;
+  }
+}
+@media (min-width: 1000px) {
+  main {
+    background-image: url(../images/background-films.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 112%;
   }
 }
