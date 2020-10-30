@@ -228,15 +228,16 @@ footer a {
 
 .producer {
   width: 50%;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px 10px 0px 0px;
   padding: 20px;
   border: 1px solid #a27201;
   margin: 30px auto 0 auto;
+  border-bottom: none;
 }
 
 .producer-col {
   width: 60%;
-  border-radius: 10px 10px 10px 10px;
+  border-radius: 10px;
   padding: 5%;
   border: 1px solid #a27201;
   margin: 0 auto 20px auto;
@@ -657,6 +658,8 @@ label {
     margin-left: 40%;
     margin-top: 30px;
     margin-bottom: 10px;
+    border-radius: 10px;
+    border-bottom: solid 1px #a27201;
   }
 
   .producer-col {
