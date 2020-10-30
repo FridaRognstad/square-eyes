@@ -141,9 +141,8 @@ p {
 }
 
 .film-big {
-  90%
+  width: 90%;
 }
-
 
 body {
   font-family: Montserrat, Helvetica, sans-serif;
@@ -246,10 +245,10 @@ a:hover {
     opacity: 0.5;
     display: block;
   }
-  
+
   .film-big {
-  max-width: 500px;
-}
+    max-width: 500px;
+  }
 }
 
 @media (min-width: 900px) {
