@@ -31,16 +31,25 @@
         <div class="back-icon"><i class="fas fa-chevron-left" style="font-size: 30px"></i
     ></a></div>
 <section class="film-section">
-    <img src="../images/film3-big.jpg" alt="Film title" class="film-big">
-    <div class="play-icon"><i class="far fa-play-circle"></i></div>
-    <h2>Film title</h2>
-    <h3>From: Producer name</h3>
-    <p>Nequi omnit quasit eost aut fugit ut estium susam fuga. Ficaepe liatque porepera dolorporum que del et est et que et anis cum nos volorpor aut a doluptatem dolupta temqui aut demolup tibuscitem. </p>
-    <p>Ita quia cori dolore plicide pore con ni ommolorrum quae optatent quam dolorum facea sequam nam facipsum quo bearchi citiunt esendae vel minus sunt, nit eatqui num estiisi nctios por mi, que</p> 
-    <p>volore voluptas eum solo optatquam, aut fuga. Fuga. Hendit maxim hitatibus</p>
-
+    <form action="submit.php" method="GET">
+        <fieldset class="credit-card">
+            <div class="grid-h1">
+            <h1 class="h1-form">Payment settings</h1>
+            </div>
+            <p><label for="cardnumber">Cardnumber</label>
+            <input type="text" name="cardnumber" class="form__input"></p>
+            <p><label for="cardholdername">Cardholder name</label>
+            <input type="text" name="cardholdername" class="form__input"></p>
+            <p><label for="expiredate">Expire date</label>
+            <input type="text" name="expiredate" class="form__input"></p>
+            <p><label for="cvv">CVV</label>
+            <input type="text" name="cvv" class="form__input"></p>
+            <p><label for="country">Country</label>
+            <input type="text" name="country" class="form__input"></p>
+         </fieldset>              
+         </form>
     <div class="watch-button">
-        <a href="producer-profile.html" class="button1">Watch</a>
+        <a href="watch4.html" class="button1">Continue</a>
     </div>
   </section>
 </main>
