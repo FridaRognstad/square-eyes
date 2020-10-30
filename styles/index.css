@@ -252,8 +252,8 @@ nav a:hover {
   }
 
   .index-section2 {
-    border-radius: 0px 0px 10px 10px;
-    margin: 6% 0 5% 5%;
+    border-radius: 10px;
+    margin: 1% 0 5% 5%;
   }
 
   .index-section3 {
@@ -279,6 +279,6 @@ nav a:hover {
 
   h1 {
     font-size: 3.7em;
-    margin: 30% 0 2% 0;
+    margin: 34% 0 1% 0;
   }
 }
