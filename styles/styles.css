@@ -180,6 +180,10 @@ nav a:hover {
   font-weight: 500;
 }
 
+a {
+  color: #d6d0c8;
+}
+
 .active-icon {
   color: #a27201;
 }
