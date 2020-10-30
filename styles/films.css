@@ -153,15 +153,12 @@ body {
 .documentary,
 .action {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto;
   column-gap: 10px;
   align-items: center;
   margin-top: -16px;
   width: 100%;
 }
-
-
-
 .films-grid a {
   font-family: roboto, sans-serif;
   color: #d6d0c8;
@@ -240,6 +237,7 @@ a:hover {
 .documentary,
 .action {
   width: auto;
+  grid-template-columns: auto auto auto auto auto auto;
 }
   
 .label1 {
