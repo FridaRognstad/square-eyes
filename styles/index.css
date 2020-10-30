@@ -58,8 +58,9 @@ footer .fas {
 h1 {
   font-family: Montserrat, Helvetica, sans-serif;
   color: #a27201;
-  font-size: 3.7em;
+  font-size: 2em;
   margin: 30% 0 2% 0;
+  text-align: center;
 }
 
 h2 {
@@ -274,5 +275,10 @@ nav a:hover {
 
   .footer-grid {
     grid-template-columns: auto auto auto;
+  }
+
+  h1 {
+    font-size: 3.7em;
+    margin: 30% 0 2% 0;
   }
 }
