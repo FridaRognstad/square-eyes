@@ -42,6 +42,8 @@ button {
   border: solid 1px #a27201;
   border-radius: 10px;
   margin: 10% 32%;
+  min-width: 250px;
+  max-width: 380px;
 }
 
 .search-input {
@@ -94,4 +96,11 @@ fieldset {
 label {
   font-family: roboto;
   color: #373736;
+}
+
+@media (min-width: 900px) {
+  .popup-section {
+    margin: 10% 32%;
+    width: 380px;
+  }
 }
