@@ -100,15 +100,13 @@ footer a {
 
 main {
   font-family: Montserrat, Helvetica, sans-serif;
-  background-image: url(../images/background-films.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 112%;
+  background-color: #282827;
 }
 
 h1 {
   font-family: Montserrat, Helvetica, sans-serif;
   color: #e6b33e;
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
   font-weight: 100;
   margin: 5px;
@@ -146,44 +144,9 @@ p {
   max-width: 500px;
 }
 
-.producer {
-  width: 30%;
-  border-radius: 10px 10px 10px 10px;
-}
-
-.producercol {
-  width: 70%;
-  float: right;
-  background-color: #373736;
-  margin: 20px;
-  border: 1px, solid #e6b33e;
-  border-radius: 10px;
-}
-
-.profile-picture {
-  border-radius: 10px 10px 10px 10px;
-  max-width: 30%;
-  float: left;
-  background-color: #373736;
-  margin: 20px;
-  border: 1px, solid #a27201;
-  border-radius: 10px;
-}
-
-.form__input {
-  display: block;
-  border: #e6b33e;
-  border-radius: 10px;
-}
-
 body {
   font-family: Montserrat, Helvetica, sans-serif;
   margin: 0;
-}
-
-.content-wrap {
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .drama,
@@ -275,4 +238,21 @@ body {
 
 a:hover {
   transform: scale(1);
+}
+
+@media (min-width: 900px) {
+  main {
+    background-image: url(../images/background-films.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 112%;
+  }
+
+  h1 {
+    font-size: 3em;
+  }
+
+  .content-wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
