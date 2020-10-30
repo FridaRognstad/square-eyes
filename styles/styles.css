@@ -594,6 +594,10 @@ label {
   margin: auto;
 }
 
+.text-align {
+  text-align: center;
+}
+
 @media (min-width: 900px) {
   h1 {
     font-size: 3em;
