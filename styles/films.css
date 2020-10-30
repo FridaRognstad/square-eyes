@@ -154,7 +154,7 @@ body {
 .action {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  column-gap: 10px;
+  column-gap: 6px;
   align-items: center;
   margin-top: -16px;
   width: 100%;
@@ -241,6 +241,7 @@ a:hover {
   .action {
     width: auto;
     grid-template-columns: auto auto auto auto auto auto;
+    column-gap: 10px;
   }
 
   .label1 {
