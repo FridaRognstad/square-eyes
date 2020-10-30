@@ -142,6 +142,7 @@ p {
 
 .film-big {
   width: 98%;
+  margin: 1%;
 }
 
 body {
@@ -234,6 +235,7 @@ a:hover {
 
   .film-big {
     max-width: 500px;
+    margin: auto;
   }
 
   .drama,
