@@ -176,8 +176,7 @@ body {
 }
 
 .heading-content {
-  height: 130px;
-  padding: 40px;
+  padding: 10px;
   background-color: #282827;
 }
 
@@ -277,5 +276,10 @@ a:hover {
     background-image: url(../images/background-films.jpg);
     background-repeat: no-repeat;
     background-size: 100% 112%;
+  }
+
+  .heading-content {
+    height: 130px;
+    padding: 40px;
   }
 }
