@@ -231,9 +231,7 @@ footer a {
   border-radius: 10px 10px 10px 10px;
   padding: 20px;
   border: 1px solid #a27201;
-  margin-left: 40%;
-  margin-top: 30px;
-  margin-bottom: 10px;
+  margin: 30px auto 0 auto;
 }
 
 .producer-col {
@@ -241,7 +239,7 @@ footer a {
   border-radius: 10px 10px 10px 10px;
   padding: 5%;
   border: 1px solid #a27201;
-  margin: 30px 40% 10px 0;
+  margin: 0 auto 20px auto;
 }
 
 .heading-content {
@@ -252,10 +250,7 @@ footer a {
 
 .grid-content {
   display: grid;
-  grid-template-columns: 40% 60%;
-  align-items: stretch;
-  align-content: center;
-  column-gap: 30px;
+  grid-template-columns: auto;
 }
 
 .profile-button {
@@ -331,7 +326,7 @@ footer a {
   border-radius: 5px;
   padding: 1%;
   background-color: #d6d0c8;
-  width: 95%%;
+  width: 95%;
 }
 
 fieldset {
@@ -637,6 +632,23 @@ label {
   .content-wrap {
     max-width: 1200px;
     margin: 0 auto;
+  }
+
+  .grid-content {
+    grid-template-columns: 40% 60%;
+    align-items: stretch;
+    align-content: center;
+    column-gap: 30px;
+  }
+
+  .producer {
+    margin-left: 40%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .producer-col {
+    margin: 30px 40% 10px 0;
   }
 }
 @media (min-width: 1000px) {
