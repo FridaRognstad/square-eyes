@@ -570,6 +570,7 @@ label {
   border-radius: 10px;
   width: 90%;
   padding: 4% 4% 4% 4%;
+  margin: 5%;
 }
 
 .watcher-profile-grid h2 {
@@ -676,6 +677,7 @@ label {
     border-radius: 0;
     width: auto;
     padding: 0;
+    margin: 0;
   }
 
   .watcher-profile-grid {
