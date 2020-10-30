@@ -186,8 +186,14 @@ footer a {
   color: #d6d0c8;
 }
 
-li {
-  display: none;
+.navbar {
+  overflow: hidden;
+  background-color: #1b1b1b;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  font-family: roboto, sans-serif;
+  font-size: 20px;
 }
 
 .footer-nav {
@@ -198,55 +204,45 @@ html {
   scroll-behavior: smooth;
 }
 
+header .right-nav {
+  color: #d6d0c8;
+  font-size: 1em;
+  float: right;
+  font-size: 20px;
+  font-family: roboto, sans-serif;
+  display: block;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: #d6d0c8;
+  text-decoration: none;
+  padding: 1em;
+  overflow: hidden;
+  display: block;
+  float: left;
+  padding: 5px 10px;
+  font-weight: 100;
+}
+
+nav a:hover {
+  font-weight: 900;
+}
+
+.active {
+  text-decoration: underline 2px #a27201;
+  text-underline-position: under;
+  font-weight: 500;
+}
+
 @media (min-width: 900px) {
   header .logo {
     max-height: 100px;
     margin-top: 0;
     float: left;
-  }
-
-  .navbar {
-    overflow: hidden;
-    background-color: #1b1b1b;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    font-family: roboto, sans-serif;
-    font-size: 20px;
-  }
-
-  header .right-nav {
-    color: #d6d0c8;
-    font-size: 1em;
-    float: right;
-    font-size: 20px;
-    font-family: roboto, sans-serif;
-    display: block;
-  }
-
-  nav li {
-    display: inline-block;
-  }
-
-  nav a {
-    color: #d6d0c8;
-    text-decoration: none;
-    padding: 1em;
-    overflow: hidden;
-    display: block;
-    float: left;
-    padding: 5px 10px;
-    font-weight: 100;
-  }
-
-  nav a:hover {
-    font-weight: 900;
-  }
-
-  .active {
-    text-decoration: underline 2px #a27201;
-    text-underline-position: under;
-    font-weight: 500;
   }
 
   .content-wrap {
