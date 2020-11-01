@@ -36,7 +36,13 @@ header .logo {
   top: 0;
   z-index: 1;
   font-family: roboto, sans-serif;
-  font-size: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.navbar ul {
+  margin: auto;
+  padding: 15px;
 }
 
 nav li {
@@ -207,6 +213,15 @@ footer a {
 }
 
 @media (min-width: 700px) {
+  .navbar {
+    font-size: 20px;
+    text-align: unset;
+  }
+
+  .navbar ul {
+    margin-left: 80px;
+  }
+
   .arrow-icon {
     font-size: 50px;
     color: #a27201;

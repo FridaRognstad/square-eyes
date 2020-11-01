@@ -153,7 +153,13 @@ header .right-nav {
   top: 0;
   z-index: 1;
   font-family: roboto, sans-serif;
-  font-size: 20px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.navbar ul {
+  margin: auto;
+  padding: 15px;
 }
 
 nav li {
@@ -593,6 +599,15 @@ label {
 }
 
 @media (min-width: 900px) {
+  .navbar {
+    font-size: 20px;
+    text-align: unset;
+  }
+
+  .navbar ul {
+    margin-left: 80px;
+  }
+
   h1 {
     font-size: 3em;
   }
