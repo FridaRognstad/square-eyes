@@ -63,6 +63,7 @@ nav a:hover {
   z-index: 1;
   font-family: roboto, sans-serif;
   font-size: 15px;
+  text-align: center;
 }
 
 .navbar ul {
@@ -256,6 +257,7 @@ footer a {
 
   .navbar {
     font-size: 20px;
+    text-align: unset;
   }
 
   .navbar ul {
