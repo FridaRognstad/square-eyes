@@ -99,7 +99,7 @@ p {
   size: 30px;
 }
 
-fa {
+.fa {
   color: #d6d0c8;
 }
 
@@ -198,14 +198,6 @@ footer {
   background-color: #1b1b1b;
   width: 100%;
   bottom: 0;
-}
-
-.footer-grid {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: 5%;
 }
 
 footer .logo2 {
@@ -713,6 +705,14 @@ label {
     font-size: 12px;
     font-family: roboto, sans-serif;
     text-transform: uppercase;
+  }
+
+  .footer-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
   }
 }
 
