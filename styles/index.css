@@ -107,13 +107,6 @@ p {
   margin: 0 8% 2% 35%;
 }
 
-.index-picture {
-  max-width: 15%;
-  float: left;
-  border-radius: 50%;
-  margin: 1% 0 0 8%;
-}
-
 .index-section2,
 .index-section3,
 .index-section4 {
@@ -290,5 +283,12 @@ nav a:hover {
   h1 {
     font-size: 3.7em;
     margin: 34% 0 1% 0;
+  }
+
+  .index-picture {
+    max-width: 15%;
+    float: left;
+    border-radius: 50%;
+    margin: 1% 0 0 8%;
   }
 }
