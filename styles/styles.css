@@ -114,9 +114,8 @@ header {
 }
 
 header .logo {
-  max-height: 100px;
+  max-width: 35%;
   margin-top: 0;
-  float: left;
 }
 
 .small-header {
@@ -599,6 +598,13 @@ label {
 }
 
 @media (min-width: 900px) {
+  header .logo {
+    max-width: unset;
+    max-height: 100px;
+    margin-top: 0;
+    float: left;
+  }
+
   .navbar {
     font-size: 20px;
     text-align: unset;

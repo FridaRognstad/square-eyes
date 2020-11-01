@@ -24,9 +24,8 @@ header .right-nav {
 }
 
 header .logo {
-  max-height: 100px;
+  max-width: 35%;
   margin-top: 0;
-  float: left;
 }
 
 .navbar {
@@ -213,15 +212,6 @@ footer a {
 }
 
 @media (min-width: 700px) {
-  .navbar {
-    font-size: 20px;
-    text-align: unset;
-  }
-
-  .navbar ul {
-    margin-left: 80px;
-  }
-
   .arrow-icon {
     font-size: 50px;
     color: #a27201;
@@ -265,6 +255,22 @@ footer a {
 }
 
 @media (min-width: 900px) {
+  header .logo {
+    max-width: unset;
+    max-height: 100px;
+    margin-top: 0;
+    float: left;
+  }
+
+  .navbar {
+    font-size: 20px;
+    text-align: unset;
+  }
+
+  .navbar ul {
+    margin-left: 80px;
+  }
+
   h1 {
     font-size: 3em;
   }
