@@ -70,7 +70,7 @@ footer {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   justify-content: space-around;
   align-items: center;
 }
@@ -85,12 +85,7 @@ footer .fas {
 }
 
 .footer-nav {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 30px;
-  font-size: 12px;
-  font-family: roboto, sans-serif;
-  text-transform: uppercase;
+  display: none;
 }
 
 footer a {
@@ -272,6 +267,19 @@ a:hover {
   .content-wrap {
     max-width: 1200px;
     margin: 0 auto;
+  }
+
+  .footer-nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    font-size: 12px;
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
+  }
+
+  .footer-grid {
+    grid-template-columns: auto auto auto;
   }
 }
 @media (min-width: 1000px) {
