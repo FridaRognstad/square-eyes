@@ -30,10 +30,6 @@ header .logo {
   margin-top: 0;
 }
 
-header .right-nav {
-  display: none;
-}
-
 nav li {
   display: inline-block;
 }
