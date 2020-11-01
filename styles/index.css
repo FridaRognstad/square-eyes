@@ -62,7 +62,7 @@ nav a:hover {
   top: 0;
   z-index: 1;
   font-family: roboto, sans-serif;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 main {
@@ -247,6 +247,10 @@ footer a {
     max-height: 100px;
     margin-top: 0;
     float: left;
+  }
+
+  .navbar {
+    font-size: 20px;
   }
 
   h1 {
