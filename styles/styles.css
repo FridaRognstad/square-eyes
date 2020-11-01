@@ -606,16 +606,6 @@ label {
     float: left;
   }
 
-  .full-viewport {
-    min-height: 100vh;
-  }
-
-  .footer {
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-  }
-
   .navbar {
     font-size: 20px;
     text-align: unset;
