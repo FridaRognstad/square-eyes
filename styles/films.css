@@ -2,6 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: Montserrat, Helvetica, sans-serif;
+  margin: 0;
+}
+
 header {
   width: 100%;
   height: 100px;
@@ -62,6 +67,118 @@ nav a:hover {
   font-weight: 500;
 }
 
+main {
+  font-family: Montserrat, Helvetica, sans-serif;
+  background-color: #282827;
+}
+
+.heading-content {
+  padding: 10px;
+  background-color: #282827;
+}
+
+.h1-subtext {
+  text-align: center;
+}
+
+h1 {
+  font-family: Montserrat, Helvetica, sans-serif;
+  color: #e6b33e;
+  font-size: 2em;
+  text-align: center;
+  font-weight: 100;
+  margin: 5px;
+}
+
+h2 {
+  font-family: Montserrat, sans-serif;
+  color: #d6d0c8;
+}
+
+.films-h2 {
+  margin-top: 5%;
+}
+
+h3 {
+  font-family: Montserrat, sans-serif;
+  color: #d6d0c8;
+}
+
+p {
+  font-family: Roboto, sans-serif;
+  color: #d6d0c8;
+}
+
+.arrow-icon {
+  display: none;
+}
+
+.films-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+  justify-items: center;
+}
+
+.films-grid a {
+  font-family: roboto, sans-serif;
+  color: #d6d0c8;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.new-releases {
+  display: flex;
+  align-items: center;
+}
+
+.film-big {
+  width: 98%;
+  margin: 1%;
+}
+
+.circle {
+  opacity: 0.5;
+}
+
+.active-circle,
+.circle {
+  color: #a27201;
+  font-size: 0.5em;
+  padding: 4px;
+}
+
+.circle-section {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin: 0 0 5% 0;
+}
+
+.film {
+  max-width: 100%;
+  border-width: 50px;
+}
+.drama,
+.documentary,
+.action {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 6px;
+  align-items: center;
+  margin-top: -16px;
+  width: 100%;
+}
+
+.action-section {
+  margin-bottom: 6%;
+}
+
+.action {
+  display: inline;
+}
+
 footer {
   background-color: #1b1b1b;
   width: 100%;
@@ -91,129 +208,6 @@ footer .fas {
 footer a {
   text-decoration: none;
   color: #d6d0c8;
-}
-
-main {
-  font-family: Montserrat, Helvetica, sans-serif;
-  background-color: #282827;
-}
-
-h1 {
-  font-family: Montserrat, Helvetica, sans-serif;
-  color: #e6b33e;
-  font-size: 2em;
-  text-align: center;
-  font-weight: 100;
-  margin: 5px;
-}
-
-h2 {
-  font-family: Montserrat, sans-serif;
-  color: #d6d0c8;
-}
-
-h3 {
-  font-family: Montserrat, sans-serif;
-  color: #d6d0c8;
-}
-
-p {
-  font-family: Roboto, sans-serif;
-  color: #d6d0c8;
-}
-
-.h1-subtext {
-  text-align: center;
-}
-
-.action {
-  display: inline;
-}
-
-.film {
-  max-width: 100%;
-  border-width: 50px;
-}
-
-.film-big {
-  width: 98%;
-  margin: 1%;
-}
-
-body {
-  font-family: Montserrat, Helvetica, sans-serif;
-  margin: 0;
-}
-
-.drama,
-.documentary,
-.action {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  column-gap: 6px;
-  align-items: center;
-  margin-top: -16px;
-  width: 100%;
-}
-.films-grid a {
-  font-family: roboto, sans-serif;
-  color: #d6d0c8;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
-.action-section {
-  margin-bottom: 6%;
-}
-
-.films-h2 {
-  margin-top: 5%;
-}
-
-.heading-content {
-  padding: 10px;
-  background-color: #282827;
-}
-
-.new-releases {
-  display: flex;
-  align-items: center;
-}
-
-.films-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto;
-  justify-items: center;
-}
-
-.circle {
-  color: #a27201;
-  opacity: 0.5;
-  font-size: 0.5em;
-  padding: 4px;
-}
-
-.active-circle {
-  color: #a27201;
-  font-size: 0.5em;
-  padding: 4px;
-}
-
-.circle-section {
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-  margin: 0 0 5% 0;
-}
-
-.arrow-icon {
-  display: none;
-}
-
-a:hover {
-  transform: scale(1);
 }
 
 @media (min-width: 700px) {
