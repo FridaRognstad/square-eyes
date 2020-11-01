@@ -132,6 +132,10 @@ p {
   margin: 2% auto;
 }
 
+.index-picture {
+  display: none;
+}
+
 .button1 {
   padding: 8px;
   border-radius: 5px;
@@ -290,5 +294,6 @@ nav a:hover {
     float: left;
     border-radius: 50%;
     margin: 1% 0 0 8%;
+    display: block;
   }
 }
