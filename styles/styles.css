@@ -95,12 +95,8 @@ p {
 }
 
 .back-icon {
-  color: #d6d0c8;
-  size: 30px;
-}
-
-.fa {
-  color: #d6d0c8;
+  font-size: 40px;
+  margin: 2%;
 }
 
 /*Header*/
