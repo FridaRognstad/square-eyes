@@ -218,12 +218,7 @@ footer .fas {
 }
 
 .footer-nav {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-gap: 30px;
-  font-size: 12px;
-  font-family: roboto, sans-serif;
-  text-transform: uppercase;
+  display: none;
 }
 
 footer a {
@@ -709,6 +704,15 @@ label {
   .watcher-profile-grid {
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: auto;
+  }
+
+  .footer-nav {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 30px;
+    font-size: 12px;
+    font-family: roboto, sans-serif;
+    text-transform: uppercase;
   }
 }
 
