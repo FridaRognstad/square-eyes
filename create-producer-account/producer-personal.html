@@ -25,43 +25,37 @@
 
     <main>
         <section class="circle-section">
-        <div class="circle">  
-            <i class="fas fa-circle"></i>
-        </div>
         <div class="active-circle">
             <i class="fas fa-circle"></i>
         </div>
         <div class="circle">  
             <i class="fas fa-circle"></i>
         </div>
-    </section>
-
-        <form action="submit.php" method="GET">
-        <fieldset class="banking-details">
-            <div class="grid-h1">
-            <h1 class="h1-form">Banking details</h1>
-            <p>Everytime someone watches your work, you will get paid</p>
+        <div class="circle">  
+            <i class="fas fa-circle"></i>
         </div>
-            <p><label for="fullname">Full name</label>
-            <input type="text" name="fullname" class="form__input" required></p>
-            <p><label for="adress">Address</label>
-            <input type="text" name="address" class="form__input" required></p>
-            <p><label for="city">City</label>
-            <input type="text" name="city" class="form__input" required></p>
-            <p><label for="zipcode">Zip code</label>
-            <input type="text" name="zipcode" class="form__input" required></p>
-            <p><label for="country">Country</label>
-            <input type="text" name="country" class="form__input" required></p>
-            <p><label for="iban">Iban</label>
-            <input type="text" name="iban" class="form__input" required></p>
-            <p><label for="swift-bic">Swift / Bic</label>
-            <input type="text" name="swift-bic" class="form__input" required></p>
-            <p><label for="bankcode">Bankcode (US)</label>
-            <input type="text" name="bankcode" class="form__input"></p>
-         </fieldset>
-         <button class="arrow-button"><a href="./create-account-pro3.html"><i class="fas fa-arrow-circle-right"></i></a></button>
-        </form>
+        </section>
 
+     <form action="submit.php" method="GET">
+        <fieldset class="personal-information">
+            <h1 class="h1-form">Personal information</h1>
+            <p><label for="fullname" class="">Full name</label>
+            <input type="text" name="fullname" class="form__input" required></p>
+            <p><label for="e-mail">E-mail</label>
+            <input type="text" name="e-mail" class="form__input" required></p>
+            <p><label for="birthdate">Birth date</label>
+            <input type="text" name="birthdate" class="form__input"required></p>
+            <p><label for="password">Choose your password</label>
+            <input type="text" name="password" class="form__input"required></p>
+            <div class="newsletter-section">
+            <input type="checkbox" name="newsletter" value="newsletter" id="newsletter" class="newsletter">
+            <p>Send newsletters to my e-mail address</p>
+        </div>
+        </fieldset>
+        <button class="arrow-button"><a href="producer-bankingdetails.html"><i class="fas fa-arrow-circle-right"></i></a></button>
+     </form>
+    
+    </body>
     </main>
 
     <footer>

@@ -28,33 +28,40 @@
         <div class="circle">  
             <i class="fas fa-circle"></i>
         </div>
-        <div class="circle">  
-            <i class="fas fa-circle"></i>
-        </div>
         <div class="active-circle">
             <i class="fas fa-circle"></i>
         </div>
-        </section>
+        <div class="circle">  
+            <i class="fas fa-circle"></i>
+        </div>
+    </section>
 
         <form action="submit.php" method="GET">
-        <fieldset class="credit-card">
+        <fieldset class="banking-details">
             <div class="grid-h1">
-            <h1 class="h1-form">Register your credit card</h1>
-            <p>*Optional - If your interested in watching other producers' films, </p>
-            <p> can add your creditcard infomation for easy payment.</p>
-            </div>
-            <p><label for="cardnumber">Cardnumber</label>
-            <input type="text" name="cardnumber" class="form__input"></p>
-            <p><label for="cardholdername">Cardholder name</label>
-            <input type="text" name="cardholdername" class="form__input"></p>
-            <p><label for="expiredate">Expire date</label>
-            <input type="text" name="expiredate" class="form__input"></p>
-            <p><label for="cvv">CVV</label>
-            <input type="text" name="cvv" class="form__input"></p>
+            <h1 class="h1-form">Banking details</h1>
+            <p>Everytime someone watches your work, you will get paid</p>
+        </div>
+            <p><label for="fullname">Full name</label>
+            <input type="text" name="fullname" class="form__input" required></p>
+            <p><label for="adress">Address</label>
+            <input type="text" name="address" class="form__input" required></p>
+            <p><label for="city">City</label>
+            <input type="text" name="city" class="form__input" required></p>
+            <p><label for="zipcode">Zip code</label>
+            <input type="text" name="zipcode" class="form__input" required></p>
+            <p><label for="country">Country</label>
+            <input type="text" name="country" class="form__input" required></p>
+            <p><label for="iban">Iban</label>
+            <input type="text" name="iban" class="form__input" required></p>
+            <p><label for="swift-bic">Swift / Bic</label>
+            <input type="text" name="swift-bic" class="form__input" required></p>
+            <p><label for="bankcode">Bankcode (US)</label>
+            <input type="text" name="bankcode" class="form__input"></p>
          </fieldset>
-         <button class="arrow-button"><a href="./create-account-pro4.html"><i class="fas fa-arrow-circle-right"></i></a></button>
-         </form>
-    </body>
+         <button class="arrow-button"><a href="producer-creditcard.html"><i class="fas fa-arrow-circle-right"></i></a></button>
+        </form>
+
     </main>
 
     <footer>
