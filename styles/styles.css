@@ -218,9 +218,11 @@ footer a {
   color: #d6d0c8;
 }
 
-footer a {
-  text-decoration: none;
-  color: #d6d0c8;
+.footer-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* Producers */
@@ -708,11 +710,7 @@ label {
   }
 
   .footer-grid {
-    display: grid;
     grid-template-columns: auto auto auto;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 5%;
   }
 }
 
