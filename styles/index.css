@@ -72,19 +72,24 @@ nav a:hover {
   padding: 15px;
 }
 
-main {
+.index-section1 {
   background-image: url(/images/watchingfilm.jpg);
   background-color: #373736;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  margin-top: 0;
+  width: 100%;
+  display: block;
+  height: 200px;
 }
 
-h1 {
+.index-section1 h1 {
   font-family: Montserrat, Helvetica, sans-serif;
   color: #a27201;
   font-size: 2em;
-  margin: 30% 0 2% 0;
   text-align: center;
+  padding-top: 70%;
+  margin-top: 0;
 }
 
 h2,
@@ -263,15 +268,22 @@ footer a {
     margin-left: 80px;
   }
 
-  h1 {
-    font-size: 3.7em;
-    margin: 34% 0 1% 0;
+  .index-section1 h1 {
+    font-size: 3.5em;
+    position: relative;
+    top: 500px;
+    padding-top: unset;
   }
 
   h2,
   h3,
   h4 {
     font-size: 2em;
+  }
+
+  .index-section1 {
+    height: 600px;
+    position: absolute;
   }
 
   .index-section2 {
