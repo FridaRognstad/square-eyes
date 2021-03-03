@@ -129,6 +129,11 @@ p {
   margin-top: 0px;
 }
 
+.index-container {
+  position: absolute;
+  top: 300px;
+}
+
 .index-section2,
 .index-section3,
 .index-section4 {
