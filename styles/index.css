@@ -130,8 +130,8 @@ p {
 }
 
 .index-container {
-  position: absolute;
-  top: 300px;
+  position: realtive;
+  top: 10px;
 }
 
 .index-section2,
@@ -290,6 +290,10 @@ footer a {
   .index-section1 {
     height: 600px;
     position: absolute;
+  }
+
+  .index-container {
+    top: 600px;
   }
 
   .index-section2 {
