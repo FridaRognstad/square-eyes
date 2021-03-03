@@ -130,8 +130,7 @@ p {
 }
 
 .index-container {
-  position: realtive;
-  top: 10px;
+  margin-top: 10px;
 }
 
 .index-section2,
@@ -293,7 +292,7 @@ footer a {
   }
 
   .index-container {
-    top: 600px;
+    margin-top: 600px;
   }
 
   .index-section2 {
