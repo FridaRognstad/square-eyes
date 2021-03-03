@@ -296,7 +296,7 @@ footer a {
   }
 
   .index-section2 {
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
     margin: 1% 0 5% 5%;
   }
 
