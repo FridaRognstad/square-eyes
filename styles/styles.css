@@ -599,6 +599,111 @@ label {
   margin: auto;
 }
 
+/* Purchase */
+
+.purchase-container {
+  margin: 30px auto;
+  max-width: 600px;
+  border-top: solid 1px;
+}
+
+.puchaseSignIn {
+  border-bottom: solid 1px #282827;
+  margin-bottom: 30px;
+}
+
+.puchaseSignIn a {
+  color: #a27201;
+  text-decoration: none;
+}
+
+.puchaseSignIn a:hover {
+  color: #e6b33e;
+}
+
+.purchase-container .form__input {
+  padding: unset;
+  width: 100%;
+}
+
+.purchase-button {
+  background: #a27201;
+  border: #a27201;
+  border-radius: 5px;
+  width: 100%;
+  height: 40px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.form-error {
+  color: red;
+  font-size: 0.8rem;
+  display: none;
+}
+
+.filmCard {
+  padding: 0;
+  width: 98%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 3px 4px 0 #282827, 0 4px 15px 0 #282827;
+  display: flex;
+}
+
+.filmCard img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.cardProducer .cardGenre i {
+  font-size: 20px;
+}
+
+.cardTitle {
+  width: 80%;
+  height: 1rem;
+}
+
+.filmCardBody {
+  padding: 0 20px 20px 20px;
+}
+
+.play_button {
+  background-color: #ff3d49;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  right: 20px;
+  bottom: 111px;
+  font-size: 27px;
+  padding-left: 21px;
+  padding-top: 16px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.purchaseFlex {
+  display: flex;
+  flex-flow: column;
+  width: 80%;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+#filmCardPurchase {
+  display: none;
+}
+
+input:focus {
+  box-shadow: 0px 0px 8px #e6b33e;
+  border-radius: 5px;
+  border: solid 2px #a27201;
+}
+
 @media (min-width: 900px) {
   header .logo {
     max-width: unset;
@@ -741,6 +846,28 @@ label {
 @media (min-width: 1000px) {
   .grid-h1 {
     grid-column: 1 / 3;
+  }
+
+  #filmCardPurchase {
+    display: block;
+  }
+
+  .filmCard {
+    width: 22rem;
+    margin: 14px;
+    height: unset;
+  }
+
+  .purchaseContainer {
+    margin: 0 45px;
+  }
+
+  .purchaseFlex {
+    flex-flow: row-reverse;
+  }
+
+  .filmCard {
+    flex-direction: column;
   }
 
   .banking-details {

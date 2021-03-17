@@ -45,17 +45,17 @@
           </div>
        </section>
 
-         <form action="submit.php" method="GET">
+         <form>
             <fieldset class="personal-information">
               <h1 class="h1-form">Personal information</h1>
-                <p><label for="fullname" class="">Full name</label>
-                  <input type="text" name="fullname" class="form__input" required></p>
+                <p><label for="fullname">Full name</label>
+                  <input type="text" name="fullname" id="fullname" class="form__input" required></p>
                 <p><label for="e-mail">E-mail</label>
-                  <input type="text" name="e-mail" class="form__input" required></p>
+                  <input type="text" name="e-mail" id="email" class="form__input" required></p>
                 <p><label for="birthdate">Birth date</label>
-                  <input type="text" name="birthdate" class="form__input"required></p>
-                <p><label for="password">Choose your password</label>
-                  <input type="text" name="password" class="form__input"required></p>
+                  <input type="text" name="birthdate" id="birthdate" class="form__input"required></p>
+                <p><label for="password">Choose your password | 1 lowercase letter, 1 uppercase letter, 1 number, and be at least 8 characters long </label>
+                  <input type="text" name="password" id="password" class="form__input"required></p>
                 <div class="newsletter-section">
                   <input type="checkbox" name="newsletter" value="newsletter" id="newsletter" class="newsletter">
                     <p>Send newsletters to my e-mail address</p>
@@ -68,5 +68,6 @@
             </button>
           </form>
       </main>
+      <script src="/js/script.js"></script>
   </body>
 </html>
