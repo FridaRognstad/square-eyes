@@ -162,6 +162,59 @@ p {
   margin: 0 0 5% 0;
 }
 
+.filmCard {
+  padding: 0;
+  width: 13rem;
+  margin: 14px;
+  border-radius: 5px;
+  box-shadow: 0 3px 4px 0 #1b1b1b, 0 4px 15px 0 #1b1b1b;
+  background: #1b1b1b;
+}
+.filmCard img {
+  border-radius: 5px 5px 0 0;
+  height: 13rem;
+  opacity: 0.8;
+}
+
+.filmCard img:hover {
+  opacity: unset;
+}
+
+.filmCard:hover {
+  transform: scale(1.02);
+  transition: all 0.5s;
+}
+
+.cardTitle {
+  width: 80%;
+  margin: 0;
+  margin-left: 5px;
+}
+
+.cardProducer {
+  margin: 5px 0 0 5px;
+}
+
+.filmInfo {
+  display: flex;
+  justify-content: space-between;
+  border-top: solid 1px #a27201;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.filmCardBody {
+  padding: 0 5px 5px 10px;
+}
+
+.priceCircle {
+  font-size: 43px;
+  color: olivedrab;
+  font-weight: 900;
+  float: right;
+  margin-top: -40px;
+}
+
 .film {
   max-width: 100%;
   border-width: 50px;
