@@ -701,6 +701,10 @@ input:focus {
   border: solid 2px #a27201;
 }
 
+.watch1-body {
+  background-color: #1b1b1b;
+}
+
 @media (min-width: 900px) {
   header .logo {
     max-width: unset;
