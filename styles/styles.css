@@ -15,7 +15,6 @@ body {
 }
 
 main {
-  background-color: #373736;
   background: cover;
   font-family: Montserrat, Helvetica, sans-serif;
 }
@@ -596,7 +595,7 @@ label {
 
 .watch-button {
   width: 130px;
-  margin: auto;
+  margin: 4px auto;
 }
 
 /* Purchase */
@@ -695,6 +694,13 @@ label {
   display: none;
 }
 
+#filmCardWatch {
+  background-color: #282827;
+  margin: 2% auto;
+  flex-direction: column;
+  max-width: 300px;
+}
+
 input:focus {
   box-shadow: 0px 0px 8px #e6b33e;
   border-radius: 5px;
@@ -702,7 +708,9 @@ input:focus {
 }
 
 .watch1-body {
-  background-color: #1b1b1b;
+  background-image: url(/images/jeshoots-com-PpYOQgsZDM4-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 @media (min-width: 900px) {
@@ -828,6 +836,10 @@ input:focus {
   .watcher-profile-grid {
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: auto;
+  }
+
+  #filmCardWatch {
+    min-width: 22rem;
   }
 
   .footer-nav {

@@ -150,22 +150,6 @@ p {
   text-align: center;
 }
 
-.index-section3 {
-  border: #a27201 solid;
-  border-radius: 10px;
-  margin: 2% auto;
-}
-
-.index-section3 p {
-  margin-left: 15%;
-}
-
-.index-section3 i {
-  margin-right: 15%;
-  font-size: 6em;
-  float: right;
-}
-
 .index-section4 {
   background: #a27201;
   border-radius: 10px;
@@ -251,6 +235,36 @@ footer a {
   display: none;
 }
 
+#filmCardBig {
+  display: flex;
+  opacity: 0.9;
+  height: 300px;
+  width: 400px;
+}
+
+#filmCardBig:hover {
+  transform: scale(1.02);
+  transition: all 0.5s;
+  opacity: unset;
+}
+
+#filmImageBig {
+  box-shadow: 0 3px 4px 0 #1b1b1b, 0 4px 15px 0 #1b1b1b;
+  border-radius: 5px;
+  width: 400px;
+}
+
+.index-section3 {
+  background-image: url(/images/jeshoots-com-PpYOQgsZDM4-unsplash.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+}
+
+.index-section3 a {
+  text-decoration: none;
+}
+
 @media (min-width: 900px) {
   .content-wrap {
     max-width: 1200px;
@@ -298,10 +312,6 @@ footer a {
   .index-section2 {
     border-radius: 0 0 10px 10px;
     margin: 1% 0 5% 5%;
-  }
-
-  .index-section3 {
-    margin: 0 5% 5% 18%;
   }
 
   .index-section4 {
