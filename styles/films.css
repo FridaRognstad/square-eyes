@@ -102,7 +102,7 @@ h2 {
 }
 
 .films-h2 {
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 h3 {
@@ -164,16 +164,24 @@ p {
 
 .filmCard {
   padding: 0;
-  width: 13rem;
-  margin: 14px;
-  border-radius: 5px;
-  box-shadow: 0 3px 4px 0 #1b1b1b, 0 4px 15px 0 #1b1b1b;
-  background: #1b1b1b;
+  width: 6rem;
+  margin: 5px;
+  border-radius: 5px;  
 }
+
+#filmCardBig {
+  width: unset;
+}
+
+.hide {
+  display: none;
+}
+
 .filmCard img {
-  border-radius: 5px 5px 0 0;
-  height: 13rem;
-  opacity: 0.8;
+  border-radius: 2px;
+  width: 100%;
+  opacity: 0.9;
+  box-shadow: 0 3px 4px 0 #1b1b1b, 0 4px 15px 0 #1b1b1b;
 }
 
 .filmCard img:hover {
@@ -189,10 +197,11 @@ p {
   width: 80%;
   margin: 0;
   margin-left: 5px;
+  font-size: 13px;
 }
 
 .cardProducer {
-  margin: 5px 0 0 5px;
+  display: none;
 }
 
 .filmInfo {
@@ -207,14 +216,6 @@ p {
   padding: 0 5px 5px 10px;
 }
 
-.priceCircle {
-  font-size: 43px;
-  color: olivedrab;
-  font-weight: 900;
-  float: right;
-  margin-top: -40px;
-}
-
 .film {
   max-width: 100%;
   border-width: 50px;
@@ -224,7 +225,6 @@ p {
 .action {
   display: grid;
   grid-template-columns: auto auto auto auto;
-  column-gap: 6px;
   align-items: center;
   margin-top: -16px;
   width: 100%;
@@ -265,6 +265,27 @@ footer a {
   color: #d6d0c8;
 }
 
+@media (min-width: 500px) {
+  .filmCard {
+    width: 8rem;
+    margin: 14px;
+  }
+
+  #filmCardBig {
+    width: 27rem;
+  }
+
+  .cardProducer {
+    margin: 5px 0 0 5px;
+    display: block;
+  }
+
+  .cardTitle {
+    font-size: unset;
+  }
+
+}
+
 @media (min-width: 700px) {
   .arrow-icon {
     font-size: 50px;
@@ -290,23 +311,18 @@ footer a {
     column-gap: 10px;
   }
 
-  .label1 {
-    grid-column: 2;
-    grid-row: 2;
+  .filmCard {
+    width: 10rem;
   }
-  .label2 {
-    grid-column: 3;
-    grid-row: 2;
+
+  #filmCardBig {
+  width: 37.2rem;
+  height: 20rem;
   }
-  .label3 {
-    grid-column: 4;
-    grid-row: 2;
+
+  #filmImageBig{
+    height: 20rem;
   }
-  .label4 {
-    grid-column: 5;
-    grid-row: 2;
-  }
-}
 
 @media (min-width: 900px) {
   header .logo {
@@ -334,6 +350,19 @@ footer a {
     margin: 0 auto;
   }
 
+  .hide {
+    display: block;
+  }
+
+#filmCardBig {
+  width: 39.2rem;
+  height: 22rem;
+}
+
+#filmImageBig {
+  height: 22rem;
+}
+
   .footer-nav {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -347,15 +376,12 @@ footer a {
     grid-template-columns: auto auto auto;
   }
 }
-@media (min-width: 1000px) {
-  main {
-    background-image: url(../images/background-films.jpg);
-    background-repeat: no-repeat;
-    background-size: 100% 112%;
+@media (min-width: 1100px) {
+  .heading-content {
+    padding-top: 40px;
   }
 
-  .heading-content {
-    height: 130px;
-    padding: 40px;
+  .filmCard {
+    width: 13rem;
   }
 }
