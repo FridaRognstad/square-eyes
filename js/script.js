@@ -4,8 +4,6 @@ const fullName = document.querySelector("#fullname");
 const fullNameError = document.querySelector("#fullNameError");
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
-const birthDate = document.querySelector("#birthdate");
-const birthDateError = document.querySelector("birthDateError");
 const password = document.querySelector("#password");
 const passwordError = document.querySelector("#passwordError");
 const creditCard = document.querySelector("#cardnumber");
@@ -54,10 +52,10 @@ function validateForm(event) {
     birthDateError.style.display = "block";
   }
 
-  if (validatePassword(password.value) === true) {
-    birthDateError.style.display = "none";
+  if (checkLength(password.value, 8) === true) {
+    passwordError.style.display = "none";
   } else {
-    birthDateError.style.display = "block";
+    passwordError.style.display = "block";
   }
 }
 
@@ -81,12 +79,6 @@ function validatePassword(password) {
   const regExPassword = /(?=(.*[0-9]))((?=.*[A-Za-z0-9])(?=.*[A-Z])(?=.*[a-z]))^.{8,}$/;
   const patternMatchesPassword = regExPassword.test(password);
   return patternMatchesPassword;
-}
-
-function validateDate(birthDate) {
-  const regExDate = /([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))/;
-  const patternMatchesDate = regExDate.test(birthDate);
-  return patternMatchesDate;
 }
 
 function validateCreditCard(creditCard) {
