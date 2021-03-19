@@ -20,42 +20,42 @@ function validateForm(event) {
     fullNameError.style.display = "none";
   } else {
     fullNameError.style.display = "block";
+    fullName.style.border = "1.5px solid red";
   }
 
   if (validateEmail(email.value) === true) {
     emailError.style.display = "none";
   } else {
     emailError.style.display = "block";
+    email.style.border = "1.5px solid red";
   }
 
   if (validateCreditCard(creditCard.value) === true) {
     creditCardError.style.display = "none";
   } else {
     creditCardError.style.display = "block";
+    creditCard.style.border = "1.5px solid red";
   }
 
   if (validateExpireDate(expireDate.value) === true) {
     expireDateError.style.display = "none";
   } else {
     expireDateError.style.display = "block";
+    expireDate.style.border = "1.5px solid red";
   }
 
   if (validateCvv(cvv.value) === true) {
     cvvError.style.display = "none";
   } else {
     cvvError.style.display = "block";
-  }
-
-  if (validateDate(birthDate.value) === true) {
-    birthDateError.style.display = "none";
-  } else {
-    birthDateError.style.display = "block";
+    cvv.style.border = "1.5px solid red";
   }
 
   if (checkLength(password.value, 8) === true) {
     passwordError.style.display = "none";
   } else {
     passwordError.style.display = "block";
+    password.style.border = "1.5px solid red";
   }
 }
 
@@ -95,6 +95,7 @@ function validateCvv(cvv) {
 
 const success = document.querySelector(".success-section");
 const signUpForm = document.querySelector("#signUpForm");
+const purchaseForm = document.querySelector("#purchaseHide");
 
 function submitForm(event) {
   event.preventDefault();
@@ -107,6 +108,7 @@ function submitForm(event) {
   ) {
     success.style.display = "block";
     signUpForm.style.display = "none";
+    purchaseForm.style.display = "none";
   }
 }
 

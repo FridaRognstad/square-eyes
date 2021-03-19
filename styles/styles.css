@@ -274,9 +274,14 @@ footer a {
   padding: 4%;
   border: solid 1px #a27201;
   border-radius: 10px;
-  background-color: #5d5d5c;
+  background-image: url(/images/jeshoots-com-PpYOQgsZDM4-unsplash.jpg);
+  background-size: cover;
   min-width: 30%;
   margin: 3%;
+}
+
+#producerCreate {
+  background-image: url(/images/man-filming.jpg);
 }
 
 .create-account-button {
@@ -285,7 +290,8 @@ footer a {
 }
 
 .create-account-button:hover {
-  background-color: #5d5d5c;
+  background-color: #e6b33e;
+  border: #e6b33e;
 }
 
 .flex-content {
@@ -357,6 +363,7 @@ label {
   font-size: 1em;
   padding: 6px;
 }
+
 .circle {
   opacity: 0.5;
 }

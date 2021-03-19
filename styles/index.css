@@ -352,11 +352,12 @@ footer a {
 
   .index-section2 {
     border-radius: 0 0 10px 10px;
-    margin: 1% 0 5% 5%;
+    margin-top: 0;
+    margin-bottom: 30px;
   }
 
   .index-section4 {
-    margin: 2% 0 5% 5%;
+    margin-top: 30px;
   }
 
   .index-section3 {
