@@ -77,22 +77,31 @@
                       <input type="text" name="fullname" id="fullname" class="form__input">
                       <div class="form-error" id="fullNameError">Please enter your full name</div>
 
+                    <div class="formSpacing">
                     <label for="e-mail">E-mail</label>
                       <input type="text" name="e-mail" id="email" class="form__input">
                       <div class="form-error" id="emailError">Please enter a valid email address</div>
-
+                    </div>
+                    
+                    <div class="formSpacing">
                       <label for="cardnumber">Cardnumber</label>
                         <input type="tel" id="cardnumber" name="cardnumber" class="form__input">
                         <div class="form-error" id="cardNumberError">Please enter a valid credit card number</div>
+                        </div>
 
+                    <div class="formSpacing">    
                       <label for="expiredate">Expire date</label>
                         <input type="tel" placeholder="MM / YY" name="expiredate" class="form__input" id="expireDate">
                         <div class="form-error" id="expireDateError">Please enter credit cards expire date</div>
+                    </div>
 
+                    <div class="formSpacing">
                       <label for="cvv">CVV</label>
                         <input type="tel" name="cvv" class="form__input" id="CVV">
                         <div class="form-error" id="cvvError">CVV must contain 3-4 digits</div>
+                      </div>
 
+                      <div class="formSpacing">
                       <label for="country">Country</label>
                         <select id="country" name="country"class="form__input">
                           <option value="Afghanistan">Afghanistan</option>
@@ -348,6 +357,7 @@
                           <option value="Zambia">Zambia</option>
                           <option value="Zimbabwe">Zimbabwe</option>
                       </select>
+                      </div>
                       
                   <button class="purchase-button">
                     Submit

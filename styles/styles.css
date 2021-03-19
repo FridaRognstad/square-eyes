@@ -716,6 +716,10 @@ input:focus {
   border: solid 2px #a27201;
 }
 
+.formSpacing {
+  margin-top: 14px;
+}
+
 .watch1-body {
   background-image: url(/images/jeshoots-com-PpYOQgsZDM4-unsplash.jpg);
   background-size: cover;
