@@ -75,12 +75,6 @@ function validateEmail(email) {
   return patternMatchesEmail;
 }
 
-function validatePassword(password) {
-  const regExPassword = /(?=(.*[0-9]))((?=.*[A-Za-z0-9])(?=.*[A-Z])(?=.*[a-z]))^.{8,}$/;
-  const patternMatchesPassword = regExPassword.test(password);
-  return patternMatchesPassword;
-}
-
 function validateCreditCard(creditCard) {
   const creditCardRegEx = /^(?:(4[0-9]{12}(?:[0-9]{3})?)|(5[1-5][0-9]{14})|(6(?:011|5[0-9]{2})[0-9]{12})|(3[47][0-9]{13})|(3(?:0[0-5]|[68][0-9])[0-9]{11})|((?:2131|1800|35[0-9]{3})[0-9]{11}))$/;
   const patternMatchesCreditCard = creditCardRegEx.test(creditCard);
