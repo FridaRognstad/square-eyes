@@ -133,6 +133,12 @@ fieldset {
   opacity: 1;
 }
 
+.form-error {
+  color: darkred;
+  font-size: 0.5rem;
+  display: none;
+}
+
 @media (min-width: 900px) {
   h1 {
     font-size: 3em;

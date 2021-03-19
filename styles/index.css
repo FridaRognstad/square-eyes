@@ -90,7 +90,8 @@ nav a:hover {
   text-align: center;
   margin-top: 0;
   position: absolute;
-  top: 200px;
+  top: 240px;
+  text-shadow: 1px 1px 1px #1b1b1b;
 }
 
 h2,
@@ -142,7 +143,7 @@ p {
 .index-section2 {
   background: #282827;
   border-radius: 10px;
-  margin: 0 auto 2% auto;
+  margin: 0 auto 12px auto;
 }
 
 .index-section2 p {
@@ -152,7 +153,8 @@ p {
 .index-section4 {
   background: #a27201;
   border-radius: 10px;
-  margin: 2% auto;
+  margin: 12px auto;
+  margin-bottom: 24px;
 }
 
 .index-section4 p {
@@ -236,8 +238,8 @@ footer a {
 
 #filmCardBig {
   opacity: 0.9;
-  height: 300px;
-  width: 400px;
+  width: 280px;
+  margin: 6px 0;
 }
 
 #filmCardBig:hover {
@@ -249,15 +251,16 @@ footer a {
 #filmImageBig {
   box-shadow: 0 3px 4px 0 #1b1b1b, 0 4px 15px 0 #1b1b1b;
   border-radius: 5px;
-  width: 400px;
+  width: 280px;
 }
 
 .index-section3 {
   background-image: url(/images/jeshoots-com-PpYOQgsZDM4-unsplash.jpg);
   background-size: cover;
   width: 100%;
-  height: 400px;
-  padding: 30px 0;
+  height: 600px;
+  padding: 3px 0;
+  margin: 12px 0;
 }
 
 .index-section3 a {
@@ -272,6 +275,35 @@ footer a {
 .newReleases {
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardTitle {
+  display: none;
+}
+
+.cardProducer {
+  display: none;
+}
+
+@media (min-width: 600px) {
+  .newReleases {
+    flex-direction: row;
+  }
+
+  #filmCardBig {
+    width: 180px;
+    margin: unset;
+  }
+
+  #filmImageBig {
+    width: 180px;
+  }
+
+  .index-section3 {
+    height: 200px;
+  }
 }
 
 @media (min-width: 900px) {
@@ -327,6 +359,31 @@ footer a {
     margin: 2% 0 5% 5%;
   }
 
+  .index-section3 {
+    height: 320px;
+    padding: 30px 0;
+  }
+
+  #filmCardBig {
+    height: 300px;
+    width: 280px;
+    margin: unset;
+  }
+
+  #filmImageBig {
+    width: 280px;
+  }
+
+  .cardTitle {
+    display: block;
+    margin: 2px;
+  }
+
+  .cardProducer {
+    display: block;
+    margin: 2px;
+  }
+
   .index-picture {
     max-width: 15%;
     float: left;
@@ -346,5 +403,21 @@ footer a {
 
   .footer-grid {
     grid-template-columns: auto auto auto;
+  }
+}
+
+@media (min-width: 1300px) {
+  #filmCardBig {
+    height: 300px;
+    width: 400px;
+    margin: unset;
+  }
+
+  #filmImageBig {
+    width: 400px;
+  }
+
+  .index-section3 {
+    height: 400px;
   }
 }

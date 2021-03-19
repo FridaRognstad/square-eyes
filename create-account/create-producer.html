@@ -5,8 +5,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet"> 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
-    <title>SquareEyes | Credit Card</title>
-    <meta name="description" content="Add your creditcard information for faster and easier payment when you find a film.">
+    <title>SquareEyes | Personal information</title>
+    <meta name="description" content="Add your personal information.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../styles/styles.css" rel="stylesheet">
     <!-- Hotjar Tracking Code for https://square-eyes.netlify.app/ -->
@@ -25,53 +25,21 @@
   <body>
     <header class="small-header">
       <div class="small-header-wrap">
-        <a href="watch1.html"><img src="../images/logo2.png" alt="SquareEyes - connecting film-lovers" class="logo2">
+        <a href="../index.html"><img src="../images/logo2.png" alt="SquareEyes - connecting film-lovers" class="logo2">
           <nav class="right-nav">
            <ul>
             <a href="../index.html"><i class="fas fa-home" style="font-size: 30px;"></i></a>
           </ul>
           </nav>
-      </div>
-     </header>
+    </div>
+  </header>
 
     <main>
-      <a href="../films.html">
-        <div class="back-icon">
-          <i class="fas fa-chevron-left" style="font-size: 30px"></i>
-        </div>
-      </a>
-
-    <div class="purchaseFlex">
-    
-      <div class="filmCard" id="filmCardPurchase">
-      <img src="/images/film3.jpg" class="filmImage" alt="Film Title by Producer-name">
-      <div class="filmCardBody">
-        <h3 class="cardTitle">FILM TITLE</h3>       
-        <p class="priceCircle">3$</p>
-        <p class="cardProducer">From: Producer name</p>
-        <div class="filmInfo">
-        <p class="cardGenre">Drama</p>
-        <p class="cardDate">2019</p>
-      </div>
-        <p class="cardSummary">Nequi omnit quasit eost aut fugit ut estium susam fuga. Ficaepe
-          liatque porepera dolorporum que del et est et que et anis cum nos
-          volorpor aut a doluptatem dolupta temqui aut demolup tibuscitem.</p>
-      </div>
-    </div>
-
-    <div class="purchaseContainer">
-        <section class="purchaseHeading">
-            <h1>Do you want to watch?</h1>
-                <p class="text-align">Square Eyes is a pay-per-view streaming site. Only 2$ per film.</p>
-        </section>
+      <div id="signUpForm">
+        <h1>Create an account</h1>
 
         <section class="purchase-container">
-          <form id="purchase-form" action="/watch/watch4.html">
-                      <h2>Personal and card details</h2>
-             
-            <div class="puchaseSignIn">          
-            <p><a href="/login.html">Sign in</a> for easier payment.</p>
-            </div>
+          <form>
 
                     <label for="fullname">Full name</label>
                       <input type="text" name="fullname" id="fullname" class="form__input">
@@ -348,16 +316,29 @@
                           <option value="Zambia">Zambia</option>
                           <option value="Zimbabwe">Zimbabwe</option>
                       </select>
+
+                      <label for="password">Choose your password</label>
+                  <input type="text" name="password" class="form__input" id="password"></p>
+                  <div class="form-error" id="passwordError">Password must contain: 1 lowercase letter, 1 uppercase letter, 1 number, and be at least 8 characters long</div>
                       
                   <button class="purchase-button">
-                    Submit
+                    Sign up
                   </button>
               </form>
             </section>
           </div>
-          </div>      
+          
+          <section class="success-section">
+            <div class="check-icon-big"><i class="fas fa-check"></i></div>
+              <h1>You successfully became a member!</h1>
+              <p class="text-align">Check your email and update your profile</p>
+                <div>
+                  <a href="../account-producer.html" class="button1">Go to account</a>
+                </div>
+          </section>
       </main>
       <script src="/js/script.js"></script>
   </body>
 </html>
+
 

@@ -5,7 +5,9 @@ const fullNameError = document.querySelector("#fullNameError");
 const email = document.querySelector("#email");
 const emailError = document.querySelector("#emailError");
 const birthDate = document.querySelector("#birthdate");
+const birthDateError = document.querySelector("birthDateError");
 const password = document.querySelector("#password");
+const passwordError = document.querySelector("#passwordError");
 const creditCard = document.querySelector("#cardnumber");
 const creditCardError = document.querySelector("#cardNumberError");
 const expireDate = document.querySelector("#expireDate");
@@ -45,6 +47,18 @@ function validateForm(event) {
   } else {
     cvvError.style.display = "block";
   }
+
+  if (validateDate(birthDate.value) === true) {
+    birthDateError.style.display = "none";
+  } else {
+    birthDateError.style.display = "block";
+  }
+
+  if (validatePassword(password.value) === true) {
+    birthDateError.style.display = "none";
+  } else {
+    birthDateError.style.display = "block";
+  }
 }
 
 form.addEventListener("submit", validateForm);
@@ -70,7 +84,7 @@ function validatePassword(password) {
 }
 
 function validateDate(birthDate) {
-  const regExDate = /^(?:(?:31(\/|-|\.)(?:0?[13578]|1[02]))\1|(?:(?:29|30)(\/|-|\.)(?:0?[1,3-9]|1[0-2])\2))(?:(?:1[6-9]|[2-9]\d)?\d{2})$|^(?:29(\/|-|\.)0?2\3(?:(?:(?:1[6-9]|[2-9]\d)?(?:0[48]|[2468][048]|[13579][26])|(?:(?:16|[2468][048]|[3579][26])00))))$|^(?:0?[1-9]|1\d|2[0-8])(\/|-|\.)(?:(?:0?[1-9])|(?:1[0-2]))\4(?:(?:1[6-9]|[2-9]\d)?\d{2})$/;
+  const regExDate = /([12]\d{3}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01]))/;
   const patternMatchesDate = regExDate.test(birthDate);
   return patternMatchesDate;
 }
@@ -92,3 +106,22 @@ function validateCvv(cvv) {
   const patternMatchesCvv = cvvRegEx.test(cvv);
   return patternMatchesCvv;
 }
+
+const success = document.querySelector(".success-section");
+const signUpForm = document.querySelector("#signUpForm");
+
+function submitForm(event) {
+  event.preventDefault();
+  if (
+    checkLength(fullName.value, 2) === true &&
+    validateEmail(email.value) === true &&
+    validateCreditCard(creditCard.value) === true &&
+    validateExpireDate(expireDate.value) === true &&
+    validateCvv(cvv.value) === true
+  ) {
+    success.style.display = "block";
+    signUpForm.style.display = "none";
+  }
+}
+
+form.addEventListener("submit", submitForm);
