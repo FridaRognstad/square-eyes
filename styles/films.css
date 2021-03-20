@@ -164,7 +164,7 @@ p {
 
 .filmCard {
   padding: 0;
-  width: 6rem;
+  width: 8rem;
   margin: 5px;
   border-radius: 5px;
 }
@@ -267,7 +267,7 @@ footer a {
 
 @media (min-width: 500px) {
   .filmCard {
-    width: 8rem;
+    width: 13rem;
     margin: 14px;
   }
 
@@ -311,7 +311,7 @@ footer a {
   }
 
   .filmCard {
-    width: 10rem;
+    width: 7rem;
   }
 
   #filmCardBig {
@@ -321,6 +321,10 @@ footer a {
 
   #filmImageBig {
     height: 20rem;
+  }
+
+  .hide {
+    display: block;
   }
 }
 
@@ -350,10 +354,6 @@ footer a {
     margin: 0 auto;
   }
 
-  .hide {
-    display: block;
-  }
-
   #filmCardBig {
     width: 39.2rem;
     height: 22rem;
@@ -361,6 +361,10 @@ footer a {
 
   #filmImageBig {
     height: 22rem;
+  }
+
+  .filmCard {
+    width: 10rem;
   }
 
   .footer-nav {
