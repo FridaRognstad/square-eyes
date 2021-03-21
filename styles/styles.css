@@ -642,6 +642,15 @@ label {
   height: 40px;
   margin-top: 20px;
   cursor: pointer;
+  color: #d6d0c8;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.purchase-button:hover {
+  background-color: #e6b33e;
+  border: #e6b33e;
+  color: #282827;
 }
 
 .form-error {
@@ -663,7 +672,6 @@ label {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   width: 100%;
-  cursor: pointer;
 }
 
 .cardTitle {
