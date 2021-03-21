@@ -95,7 +95,7 @@ function validateCvv(cvv) {
 
 const success = document.querySelector(".success-section");
 const signUpForm = document.querySelector("#signUpForm");
-const purchaseForm = document.querySelector("#purchaseHide");
+const purchaseHide = document.querySelector("#purchaseHide");
 
 function submitForm(event) {
   event.preventDefault();
@@ -108,7 +108,10 @@ function submitForm(event) {
   ) {
     success.style.display = "block";
     signUpForm.style.display = "none";
-    purchaseForm.style.display = "none";
+  }
+  {
+    success.style.display = "block";
+    purchaseHide.style.display = "none";
   }
 }
 
