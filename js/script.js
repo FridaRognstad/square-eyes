@@ -108,6 +108,7 @@ function submitForm(event) {
   ) {
     success.style.display = "block";
     purchaseHide.style.display = "none";
+    signUpForm.syle.display = "none";
   } else {
     success.style.display = "none";
   }
