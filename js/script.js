@@ -107,11 +107,9 @@ function submitForm(event) {
     validateCvv(cvv.value) === true
   ) {
     success.style.display = "block";
-    signUpForm.style.display = "none";
-  }
-  {
-    success.style.display = "block";
     purchaseHide.style.display = "none";
+  } else {
+    success.style.display = "none";
   }
 }
 
