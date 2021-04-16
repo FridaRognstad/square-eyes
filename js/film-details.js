@@ -22,8 +22,8 @@ async function fetchFilm() {
 
     createHtml(details);
   } catch (error) {
-    console.log(error);
-    detailContainer.innerHTML = message("error", error);
+    console.log("Could not call the API");
+    detailContainer.innerHTML = message("Something went wrong calling the API");
   }
 }
 

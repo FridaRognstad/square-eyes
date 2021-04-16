@@ -27,8 +27,10 @@ async function fetchProducerFilms() {
                                         <p>${films[i].description}</p>`;
     }
   } catch (error) {
-    console.log(error);
-    featuredContainer.innerHTML = message("error", error);
+    console.log("Could not call the API");
+    producerFilmContainer.innerHTML = message(
+      "Something went wrong calling the API"
+    );
   }
 }
 fetchProducerFilms();

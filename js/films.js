@@ -20,8 +20,8 @@ async function fetchDramaFilms() {
                                             </div>`;
     });
   } catch (error) {
-    console.log(error);
-    dramaContainer.innerHTML = message("error", error);
+    console.log("Could not call the API");
+    dramaContainer.innerHTML = message("Something went wrong calling the API");
   }
 }
 
@@ -49,8 +49,8 @@ async function fetchActionFilms() {
                                             </div>`;
     });
   } catch (error) {
-    console.log(error);
-    actionContainer.innerHTML = message("error", error);
+    console.log("Could not call the API");
+    actionContainer.innerHTML = message("Something went wrong calling the API");
   }
 }
 
@@ -78,8 +78,10 @@ async function fetchDocumentaryFilms() {
                                               </div>`;
     });
   } catch (error) {
-    console.log(error);
-    documentaryContainer.innerHTML = message("error", error);
+    console.log("Could not call the API");
+    documentaryContainer.innerHTML = message(
+      "Something went wrong calling the API"
+    );
   }
 }
 
@@ -107,8 +109,10 @@ async function fetchFeaturedFilms() {
                                       </div>`;
     });
   } catch (error) {
-    console.log(error);
-    featuredContainer.innerHTML = message("error", error);
+    console.log("Could not call the API");
+    featuredContainer.innerHTML = message(
+      "Something went wrong calling the API"
+    );
   }
 }
 
