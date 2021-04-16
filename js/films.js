@@ -1,6 +1,7 @@
 const resultsContainer = document.querySelector(".results");
 
-const url = "https://fridarognstad.one/squareeyes/wp-json/wc/store/products";
+const url =
+  "https://fridarognstad.one/squareeyes/wp-json/wc/store/products?per_page=12";
 
 async function fetchFilms() {
   try {

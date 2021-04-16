@@ -251,7 +251,7 @@ p {
 .results {
   display: flex;
   flex-wrap: wrap;
-  max-width: 1180px;
+  max-width: 945px;
 }
 
 .action-section {
