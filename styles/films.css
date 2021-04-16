@@ -152,11 +152,6 @@ p {
   font-size: 14px;
 }
 
-.new-releases {
-  display: flex;
-  align-items: center;
-}
-
 .film-big {
   width: 98%;
   margin: 1%;
@@ -182,13 +177,19 @@ p {
 
 .filmCard {
   padding: 0;
-  width: 11rem;
+  width: 13rem;
   margin: 5px;
   border-radius: 5px;
 }
 
 #filmCardBig {
-  width: unset;
+  width: 300px;
+}
+
+.featured {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .hide {
@@ -237,27 +238,33 @@ p {
   max-width: 100%;
   border-width: 50px;
 }
-.drama,
-.documentary,
-.action {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  align-items: center;
-  margin-top: -16px;
-  width: 100%;
-}
 
-.results {
+.documentaryResults,
+.actionResults,
+.dramaResults {
   display: flex;
   flex-wrap: wrap;
   max-width: 945px;
   justify-content: center;
-  margin-bottom: 6%;
   gap: 24px;
 }
 
-.action-section {
+.documentaryResults {
   margin-bottom: 6%;
+}
+
+.actionResults,
+.dramaResults {
+  margin-bottom: 10px;
+}
+
+.new-releases-section {
+  background-image: url(/images/jeshoots-com-PpYOQgsZDM4-unsplash.jpg);
+  width: 100%;
+}
+
+.new-releases-section h2 {
+  margin-left: 10%;
 }
 
 footer {
@@ -292,14 +299,6 @@ footer a {
 }
 
 @media (min-width: 500px) {
-  .filmCard {
-    width: 13rem;
-  }
-
-  #filmCardBig {
-    width: 27rem;
-  }
-
   .cardProducer {
     margin: 5px 0 0 5px;
     display: block;
@@ -325,23 +324,6 @@ footer a {
   .film-big {
     max-width: 500px;
     margin: auto;
-  }
-
-  .drama,
-  .documentary,
-  .action {
-    width: auto;
-    grid-template-columns: auto auto auto auto auto auto;
-    column-gap: 10px;
-  }
-
-  #filmCardBig {
-    width: 37.2rem;
-    height: 20rem;
-  }
-
-  #filmImageBig {
-    height: 20rem;
   }
 
   .hide {
@@ -375,15 +357,6 @@ footer a {
     margin: 0 auto;
   }
 
-  #filmCardBig {
-    width: 39.2rem;
-    height: 22rem;
-  }
-
-  #filmImageBig {
-    height: 22rem;
-  }
-
   .footer-nav {
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -401,5 +374,10 @@ footer a {
 @media (min-width: 1100px) {
   .heading-content {
     padding-top: 40px;
+  }
+
+  #filmCardBig {
+    width: 20rem;
+    margin: 14px;
   }
 }

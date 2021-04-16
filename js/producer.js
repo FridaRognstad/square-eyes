@@ -1,5 +1,6 @@
 const producerFilmContainer = document.querySelector(".film-section");
-const url = "https://fridarognstad.one/squareeyes/wp-json/wc/store/products";
+const url =
+  "https://fridarognstad.one/squareeyes/wp-json/wc/store/products?per_page=12";
 
 async function fetchProducerFilms() {
   try {
