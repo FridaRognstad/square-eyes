@@ -535,6 +535,10 @@ label {
   opacity: 1;
 }
 
+.filmImageProducer {
+  width: 100%;
+}
+
 /* Manage producer account */
 
 .button2-icon {
