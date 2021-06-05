@@ -9,17 +9,6 @@
     <meta name="description" content="Explore independent quality film made by our producers. ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles/films.css" rel="stylesheet">
-    <!-- Hotjar Tracking Code for https://square-eyes.netlify.app/ -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:2267122,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
   </head>
  
   <body>
@@ -52,11 +41,21 @@
       <div class="films-grid">
         <section class="new-releases-section">
             <h2 class="films-h2">New Releases</h2>
-                  <div class="featured">
+                <div class="caro-container">
+                  <div class="carousel">
+                    <div class="slider">
                     <div class="loader"></div>
                 </div>
+                <ul>
+                  <li class="clicked"></li>
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              </div>
         </section>
 
+        <div class="content-align">
         <section class="drama-section">
           <h2 class="films-h2">Drama</h2>
           <div class="drama">
@@ -65,19 +64,20 @@
           </div> 
         </section>
 
-        <section class="drama-section">
+        <section class="action-section">
           <h2 class="films-h2">Action</h2>
         <div class="actionResults">
             <div class="loader"></div>
         </div> 
         </section>
 
-        <section class="drama-section">
+        <section class="documentary-section">
           <h2 class="films-h2">Documentary</h2>
         <div class="documentaryResults">
           <div class="loader"></div>
       </div> 
       </section>
+    </div>
 
           </div>
       </div>
@@ -105,7 +105,7 @@
       </div>
     </footer>
     
-    <script src="js/components/error.js"></script>
-    <script src="js/films.js"></script>
+    <script src="./js/components/error.js"></script>
+    <script src="./js/films.js"></script>
   </body>
 </html>

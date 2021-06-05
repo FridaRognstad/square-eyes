@@ -7,8 +7,6 @@ async function fetchProducerFilms() {
     const response = await fetch(url);
     const films = await response.json();
 
-    console.log(films);
-
     producerFilmContainer.innerHTML = "";
 
     for (let i = 0; i < films.length; i++) {

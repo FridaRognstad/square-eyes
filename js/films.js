@@ -1,119 +1,75 @@
 const dramaContainer = document.querySelector(".dramaResults");
+const actionContainer = document.querySelector(".actionResults");
+const documentaryContainer = document.querySelector(".documentaryResults");
+const featuredContainer = document.querySelector(".slider");
+const indexFeatured = document.querySelector(".featured");
+const url =
+  "https://fridarognstad.one/squareeyes/wp-json/wc/store/products?per_page=50";
 
-const urlDrama =
-  "https://fridarognstad.one/squareeyes/wp-json/wc/store/products?category=17";
-
-async function fetchDramaFilms() {
+async function fetchFilms() {
   try {
-    const responseDrama = await fetch(urlDrama);
-    const dramaFilms = await responseDrama.json();
+    const response = await fetch(url);
+    const films = await response.json();
 
     dramaContainer.innerHTML = "";
+    actionContainer.innerHTML = "";
+    documentaryContainer.innerHTML = "";
+    featuredContainer.innerHTML = "";
 
-    dramaFilms.forEach(function (film) {
-      dramaContainer.innerHTML += `<div class="filmCard">
-                                      <a href="watch/watch2.html?id=${film.id}">
-                                      <img src="${film.images[0].src}" class="filmImage" alt="${film.name}" />
-                                                    <h3 class="cardTitle">${film.name}</h3>
-                                                    <p class="cardProducer">${film.short_description}</p>
-                                            </a>
-                                            </div>`;
-    });
+    sortingCat(films);
   } catch (error) {
     console.log("Could not call the API");
     dramaContainer.innerHTML = message("Something went wrong calling the API");
   }
 }
 
-fetchDramaFilms();
+fetchFilms();
 
-const actionContainer = document.querySelector(".actionResults");
+function sortingCat(films) {
+  for (let i = 0; i < films.length; i++) {
+    const categories = films[i].categories[0].name;
+    const filmsHtml = `<div class="filmCard">
+                        <a href="watch/watch2.html?id=${films[i].id}">
+                        <img src="${films[i].images[0].src}" class="filmImage" alt="${films[i].name}" />
+                        <h3 class="cardTitle">${films[i].name}</h3>
+                        <p class="cardProducer">${films[i].short_description}</p>
+                        </a>
+                        </div>`;
 
-const urlAction =
-  "https://fridarognstad.one/squareeyes/wp-json/wc/store/products?category=19";
+    if (categories === "Drama") {
+      dramaContainer.innerHTML += filmsHtml;
+    }
 
-async function fetchActionFilms() {
-  try {
-    const responseAction = await fetch(urlAction);
-    const actionFilms = await responseAction.json();
+    if (categories === "Action") {
+      actionContainer.innerHTML += filmsHtml;
+    }
 
-    actionContainer.innerHTML = "";
+    if (categories === "Documentary") {
+      documentaryContainer.innerHTML += filmsHtml;
+    }
 
-    actionFilms.forEach(function (film) {
-      actionContainer.innerHTML += `<div class="filmCard">
-                                      <a href="watch/watch2.html?id=${film.id}">
-                                      <img src="${film.images[0].src}" class="filmImage" alt="${film.name}" />
-                                                    <h3 class="cardTitle">${film.name}</h3>
-                                                    <p class="cardProducer">${film.short_description}</p>
-                                            </a>
-                                            </div>`;
-    });
-  } catch (error) {
-    console.log("Could not call the API");
-    actionContainer.innerHTML = message("Something went wrong calling the API");
+    if (films[i].tags[0]) {
+      featuredContainer.innerHTML += `<div class="new-rel">
+      <a href="watch/watch2.html?id=${films[i].id}">
+      <img src="${films[i].images[1].src}" class="filmImage" alt="${films[i].name}" />
+      <div class="new-rel-name">
+      <h3 class="cardTitle">${films[i].name}</h3>
+      <p class="cardProducer">${films[i].short_description}</p>
+      </div>
+      </a>
+      </div>`;
+    }
   }
 }
 
-fetchActionFilms();
+//carousel
 
-const documentaryContainer = document.querySelector(".documentaryResults");
+const slider = document.querySelector(".slider");
 
-const urlDocumentary =
-  "https://fridarognstad.one/squareeyes/wp-json/wc/store/products?category=16";
-
-async function fetchDocumentaryFilms() {
-  try {
-    const responseDocumentary = await fetch(urlDocumentary);
-    const documentaryFilms = await responseDocumentary.json();
-
-    documentaryContainer.innerHTML = "";
-
-    documentaryFilms.forEach(function (film) {
-      documentaryContainer.innerHTML += `<div class="filmCard">
-                                        <a href="watch/watch2.html?id=${film.id}">
-                                        <img src="${film.images[0].src}" class="filmImage" alt="${film.name}" />
-                                                      <h3 class="cardTitle">${film.name}</h3>
-                                                      <p class="cardProducer">${film.short_description}</p>
-                                              </a>
-                                              </div>`;
-    });
-  } catch (error) {
-    console.log("Could not call the API");
-    documentaryContainer.innerHTML = message(
-      "Something went wrong calling the API"
-    );
-  }
-}
-
-fetchDocumentaryFilms();
-
-const featuredContainer = document.querySelector(".featured");
-
-const urlFeatured =
-  "https://fridarognstad.one/squareeyes/wp-json/wc/store/products?category=20";
-
-async function fetchFeaturedFilms() {
-  try {
-    const responseFeatured = await fetch(urlFeatured);
-    const featuredFilms = await responseFeatured.json();
-
-    featuredContainer.innerHTML = "";
-
-    featuredFilms.forEach(function (film) {
-      featuredContainer.innerHTML += `<div class="filmCard" id="filmCardBig">
-                                      <a href="watch/watch2.html?id=${film.id}">
-                                      <img src="${film.images[1].src}" id="filmImageBig" alt="${film.name}" />
-                                      <p class="cardTitle">${film.name}</p>
-                                      <p class="cardProducer">${film.short_description}</p>
-                                      </a>
-                                      </div>`;
-    });
-  } catch (error) {
-    console.log("Could not call the API");
-    featuredContainer.innerHTML = message(
-      "Something went wrong calling the API"
-    );
-  }
-}
-
-fetchFeaturedFilms();
+document.querySelectorAll(`.carousel ul li`).forEach(function (dots, index) {
+  dots.addEventListener(`click`, function () {
+    document.querySelector(".carousel .clicked").classList.remove("clicked");
+    dots.classList.add("clicked");
+    slider.style.transform = `translate(` + index * -33.3 + `%)`;
+  });
+});

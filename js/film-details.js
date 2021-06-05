@@ -1,24 +1,19 @@
 const detailContainer = document.querySelector(".film-details");
+const titleFilm = document.querySelector(".film-title");
 
 const queryString = document.location.search;
-
 const params = new URLSearchParams(queryString);
-
 const id = params.get("id");
-
-console.log(id);
 
 const url =
   "https://fridarognstad.one/squareeyes/wp-json/wc/store/products/" + id;
-
-console.log(url);
 
 async function fetchFilm() {
   try {
     const response = await fetch(url);
     const details = await response.json();
 
-    console.log(details);
+    titleFilm.innerHTML = `Square Eyes | ${details.name}`;
 
     createHtml(details);
   } catch (error) {

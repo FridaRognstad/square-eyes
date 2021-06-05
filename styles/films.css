@@ -137,13 +137,6 @@ p {
   display: none;
 }
 
-.films-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: auto auto auto auto;
-  justify-items: center;
-}
-
 .films-grid a {
   font-family: roboto, sans-serif;
   color: #d6d0c8;
@@ -157,22 +150,77 @@ p {
   margin: 1%;
 }
 
-.circle {
-  opacity: 0.5;
+.caro-container {
+  width: 95%;
+  margin: 20px auto;
 }
 
-.active-circle,
-.circle {
-  color: #a27201;
-  font-size: 0.5em;
-  padding: 4px;
+.carousel {
+  position: relative;
+  overflow: hidden;
 }
 
-.circle-section {
+.slider {
+  height: 100%;
   display: flex;
-  align-items: baseline;
+  transition: all 1s;
+  width: 300%;
+}
+
+.slider .new-rel {
+  display: flex;
+  align-items: center;
   justify-content: center;
-  margin: 0 0 5% 0;
+  flex-basis: 100%;
+}
+
+.new-rel img {
+  width: 99%;
+  box-shadow: 0 3px 4px 0 #1b1b1b, 0 4px 15px 0 #1b1b1b;
+  border-radius: 2px;
+}
+
+.new-rel {
+  position: relative;
+}
+
+.new-rel-name {
+  position: absolute;
+  bottom: 1%;
+  padding: 5px 5px 0 5px;
+}
+
+.new-rel-name h3 {
+  color: #d6d0c8;
+  text-shadow: 0 0 3px #1b1b1b;
+}
+
+.new-rel-name p {
+  color: #1b1b1b;
+}
+
+.carousel ul {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%);
+  list-style: none;
+  display: flex;
+}
+
+.carousel ul li {
+  border: 1px solid #282827;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 10px;
+  background-color: #e6b33e;
+  cursor: pointer;
+}
+
+.carousel .clicked {
+  background-color: #a27201;
+  border: 1px solid #282827;
 }
 
 .filmCard {
@@ -184,12 +232,6 @@ p {
 
 #filmCardBig {
   width: 300px;
-}
-
-.featured {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
 }
 
 .hide {
@@ -239,6 +281,12 @@ p {
   border-width: 50px;
 }
 
+.content-align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .documentaryResults,
 .actionResults,
 .dramaResults {
@@ -250,7 +298,7 @@ p {
 }
 
 .documentaryResults {
-  margin-bottom: 6%;
+  padding-bottom: 6%;
 }
 
 .actionResults,
@@ -261,6 +309,7 @@ p {
 .new-releases-section {
   background-image: url(/images/jeshoots-com-PpYOQgsZDM4-unsplash.jpg);
   width: 100%;
+  padding: 10px 0;
 }
 
 .new-releases-section h2 {
@@ -355,6 +404,11 @@ footer a {
   .content-wrap {
     max-width: 1200px;
     margin: 0 auto;
+  }
+
+  .caro-container {
+    width: 60%;
+    max-width: 900px;
   }
 
   .footer-nav {
